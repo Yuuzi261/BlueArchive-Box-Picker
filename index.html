@@ -2,21 +2,10 @@
 <html>
 <head>
     <title>BA Box Checker</title>
-    <style>
-        .button {
-            width: 100px;
-            height: 100px;
-            background-color: grey;
-            margin: 10px;
-            display: inline-block;
-        }
-        .active {
-            background-color: green;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles\button.css">
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
 </head>
-<body>
+<body class="theme-dark font-tw modal-open">
     <div id="button-container"></div>
     
     <script id="button-template" type="text/x-handlebars-template">
