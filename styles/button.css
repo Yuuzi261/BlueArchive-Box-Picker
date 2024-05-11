@@ -1,0 +1,10 @@
+.button {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 10px;
+    display: inline-block;
+}
+.active {
+    background-color: green;
+}
