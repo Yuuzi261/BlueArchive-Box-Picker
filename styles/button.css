@@ -5,6 +5,13 @@
     margin: 10px;
     display: inline-block;
 }
+
 .active {
     background-color: green;
+}
+
+#button-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
 }
