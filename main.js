@@ -32,7 +32,7 @@ function initializeApp(roles, state_maps) {
 
 function updateButtonStates(roles, state_maps, buttonContainer) {
     const hash = window.location.hash.substring(1);
-    const state = hash ? decodeURIComponent(atob(hash)) : '';
+    const state = hash ? decodeState(hash) : '';
 
     const maxLength = Math.max(state.length, roles.length);
     const stateArray = state.split('').concat(Array(maxLength - state.length).fill('0'));
@@ -65,6 +65,39 @@ function updateURL(roles, state_maps) {
     const state = state_maps
     .map(map => roles.find(role => role.Id === map)?.active ? '1' : '0')
     .join('');
-    const encodeState = btoa(encodeURIComponent(state));
-    window.location.hash = encodeState;
+    const encode_state = encodeState(state);
+    window.location.hash = encode_state;
+}
+
+function encodeState(state) {
+    const padZero = 36 - state.length % 36;
+    state = state.padEnd(state.length + padZero, '0');
+
+    let result = [padZero.toString()];
+    for (let i = 0;i < state.length;i += 36) {
+        let chunk = state.slice(i, i+36);
+        let byte = parseInt(chunk, 2).toString(36);
+        result.push(byte);
+    }
+    let output = result.join(',');
+
+    output = btoa(output);
+    return output;
+}
+
+function decodeState(hash) {
+    const decoded_state = atob(hash);
+    const stateArray = decoded_state.split(',');
+    const padZero = parseInt(stateArray[0], 10);
+
+    let result = '';
+
+    for (let i = 1; i < stateArray.length; i++) {
+        const binary = parseInt(stateArray[i], 36).toString(2);
+        const paddedBinary = binary.padStart(36, '0');
+        result += paddedBinary;
+    }
+    result = result.slice(0, result.length - padZero);
+
+    return result;
 }
