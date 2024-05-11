@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BA Box Checker</title>
+    <style>
+        .button {
+            width: 100px;
+            height: 100px;
+            background-color: grey;
+            margin: 10px;
+            display: inline-block;
+        }
+        .active {
+            background-color: green;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+</head>
+<body>
+    <div id="button-container"></div>
+    
+    <script id="button-template" type="text/x-handlebars-template">
+        {{#each roles}}
+        <div class="button {{#if this.active}}active{{/if}}" data-role-id="{{this.Id}}">{{this.Name}}</div>
+        {{/each}}
+    </script>
+    
+    <script src="main.js"></script>
+</body>
+</html>
