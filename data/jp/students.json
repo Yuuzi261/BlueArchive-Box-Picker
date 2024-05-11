@@ -1,7 +1,11 @@
 [
     {
         "Id": 10000,
-        "IsReleased": 10000,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "アル",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -15,7 +19,11 @@
     },
     {
         "Id": 10001,
-        "IsReleased": 10001,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "エイミ",
         "School": "Millennium",
         "StarGrade": 3,
@@ -29,7 +37,11 @@
     },
     {
         "Id": 10002,
-        "IsReleased": 10002,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ハルナ",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -43,7 +55,11 @@
     },
     {
         "Id": 10003,
-        "IsReleased": 10003,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ヒフミ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -57,7 +73,11 @@
     },
     {
         "Id": 10004,
-        "IsReleased": 10004,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ヒナ",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -71,7 +91,11 @@
     },
     {
         "Id": 10005,
-        "IsReleased": 10005,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ホシノ",
         "School": "Abydos",
         "StarGrade": 3,
@@ -85,7 +109,11 @@
     },
     {
         "Id": 10006,
-        "IsReleased": 10006,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "イオリ",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -99,7 +127,11 @@
     },
     {
         "Id": 10007,
-        "IsReleased": 10007,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "マキ",
         "School": "Millennium",
         "StarGrade": 3,
@@ -113,7 +145,11 @@
     },
     {
         "Id": 10008,
-        "IsReleased": 10008,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ネル",
         "School": "Millennium",
         "StarGrade": 3,
@@ -127,7 +163,11 @@
     },
     {
         "Id": 10009,
-        "IsReleased": 10009,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "イズミ",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -141,7 +181,11 @@
     },
     {
         "Id": 10010,
-        "IsReleased": 10010,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "シロコ",
         "School": "Abydos",
         "StarGrade": 3,
@@ -155,7 +199,11 @@
     },
     {
         "Id": 10011,
-        "IsReleased": 10011,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "シュン",
         "School": "Shanhaijing",
         "StarGrade": 3,
@@ -169,7 +217,11 @@
     },
     {
         "Id": 10012,
-        "IsReleased": 10012,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "スミレ",
         "School": "Millennium",
         "StarGrade": 3,
@@ -183,7 +235,11 @@
     },
     {
         "Id": 10013,
-        "IsReleased": 10013,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ツルギ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -197,7 +253,11 @@
     },
     {
         "Id": 13000,
-        "IsReleased": 13000,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "アカネ",
         "School": "Millennium",
         "StarGrade": 2,
@@ -211,7 +271,11 @@
     },
     {
         "Id": 13001,
-        "IsReleased": 13001,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "チセ",
         "School": "Hyakkiyako",
         "StarGrade": 2,
@@ -225,7 +289,11 @@
     },
     {
         "Id": 13002,
-        "IsReleased": 13002,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "アカリ",
         "School": "Gehenna",
         "StarGrade": 2,
@@ -239,7 +307,11 @@
     },
     {
         "Id": 13003,
-        "IsReleased": 13003,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ハスミ",
         "School": "Trinity",
         "StarGrade": 2,
@@ -253,7 +325,11 @@
     },
     {
         "Id": 13004,
-        "IsReleased": 13004,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ノノミ",
         "School": "Abydos",
         "StarGrade": 2,
@@ -267,7 +343,11 @@
     },
     {
         "Id": 13005,
-        "IsReleased": 13005,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "カヨコ",
         "School": "Gehenna",
         "StarGrade": 2,
@@ -281,7 +361,11 @@
     },
     {
         "Id": 13006,
-        "IsReleased": 13006,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ムツキ",
         "School": "Gehenna",
         "StarGrade": 2,
@@ -295,7 +379,11 @@
     },
     {
         "Id": 13007,
-        "IsReleased": 13007,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ジュンコ",
         "School": "Gehenna",
         "StarGrade": 2,
@@ -309,7 +397,11 @@
     },
     {
         "Id": 13008,
-        "IsReleased": 13008,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "セリカ",
         "School": "Abydos",
         "StarGrade": 2,
@@ -323,7 +415,11 @@
     },
     {
         "Id": 13009,
-        "IsReleased": 13009,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ツバキ",
         "School": "Hyakkiyako",
         "StarGrade": 2,
@@ -337,7 +433,11 @@
     },
     {
         "Id": 13010,
-        "IsReleased": 13010,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ユウカ",
         "School": "Millennium",
         "StarGrade": 2,
@@ -351,7 +451,11 @@
     },
     {
         "Id": 16000,
-        "IsReleased": 16000,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ハルカ",
         "School": "Gehenna",
         "StarGrade": 1,
@@ -365,7 +469,11 @@
     },
     {
         "Id": 16001,
-        "IsReleased": 16001,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "アスナ",
         "School": "Millennium",
         "StarGrade": 1,
@@ -379,7 +487,11 @@
     },
     {
         "Id": 16002,
-        "IsReleased": 16002,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "コトリ",
         "School": "Millennium",
         "StarGrade": 1,
@@ -393,7 +505,11 @@
     },
     {
         "Id": 16003,
-        "IsReleased": 16003,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "スズミ",
         "School": "Trinity",
         "StarGrade": 1,
@@ -407,7 +523,11 @@
     },
     {
         "Id": 16004,
-        "IsReleased": 16004,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "フィーナ",
         "School": "Hyakkiyako",
         "StarGrade": 1,
@@ -421,7 +541,11 @@
     },
     {
         "Id": 20000,
-        "IsReleased": 20000,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ヒビキ",
         "School": "Millennium",
         "StarGrade": 3,
@@ -435,7 +559,11 @@
     },
     {
         "Id": 20001,
-        "IsReleased": 20001,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "カリン",
         "School": "Millennium",
         "StarGrade": 3,
@@ -449,7 +577,11 @@
     },
     {
         "Id": 20002,
-        "IsReleased": 20002,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "サヤ",
         "School": "Shanhaijing",
         "StarGrade": 3,
@@ -463,7 +595,11 @@
     },
     {
         "Id": 23000,
-        "IsReleased": 23000,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "アイリ",
         "School": "Trinity",
         "StarGrade": 2,
@@ -477,7 +613,11 @@
     },
     {
         "Id": 23001,
-        "IsReleased": 23001,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "フウカ",
         "School": "Gehenna",
         "StarGrade": 2,
@@ -491,7 +631,11 @@
     },
     {
         "Id": 23002,
-        "IsReleased": 23002,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ハナエ",
         "School": "Trinity",
         "StarGrade": 2,
@@ -505,7 +649,11 @@
     },
     {
         "Id": 23003,
-        "IsReleased": 23003,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ハレ",
         "School": "Millennium",
         "StarGrade": 2,
@@ -519,7 +667,11 @@
     },
     {
         "Id": 23004,
-        "IsReleased": 23004,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ウタハ",
         "School": "Millennium",
         "StarGrade": 2,
@@ -533,7 +685,11 @@
     },
     {
         "Id": 23005,
-        "IsReleased": 23005,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "アヤネ",
         "School": "Abydos",
         "StarGrade": 2,
@@ -547,7 +703,11 @@
     },
     {
         "Id": 26000,
-        "IsReleased": 26000,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "チナツ",
         "School": "Gehenna",
         "StarGrade": 1,
@@ -561,7 +721,11 @@
     },
     {
         "Id": 26001,
-        "IsReleased": 26001,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "コタマ",
         "School": "Millennium",
         "StarGrade": 1,
@@ -575,7 +739,11 @@
     },
     {
         "Id": 26002,
-        "IsReleased": 26002,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ジュリ",
         "School": "Gehenna",
         "StarGrade": 1,
@@ -589,7 +757,11 @@
     },
     {
         "Id": 26003,
-        "IsReleased": 26003,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "セリナ",
         "School": "Trinity",
         "StarGrade": 1,
@@ -603,7 +775,11 @@
     },
     {
         "Id": 26004,
-        "IsReleased": 26004,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "シミコ",
         "School": "Trinity",
         "StarGrade": 1,
@@ -617,7 +793,11 @@
     },
     {
         "Id": 26005,
-        "IsReleased": 26005,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ヨシミ",
         "School": "Trinity",
         "StarGrade": 1,
@@ -631,7 +811,11 @@
     },
     {
         "Id": 20003,
-        "IsReleased": 20003,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "マシロ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -645,7 +829,11 @@
     },
     {
         "Id": 10014,
-        "IsReleased": 10014,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "イズナ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -659,7 +847,11 @@
     },
     {
         "Id": 23006,
-        "IsReleased": 23006,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "シズコ",
         "School": "Hyakkiyako",
         "StarGrade": 2,
@@ -673,7 +865,11 @@
     },
     {
         "Id": 10015,
-        "IsReleased": 10015,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "アリス",
         "School": "Millennium",
         "StarGrade": 3,
@@ -687,7 +883,11 @@
     },
     {
         "Id": 10016,
-        "IsReleased": 10016,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ミドリ",
         "School": "Millennium",
         "StarGrade": 3,
@@ -701,7 +901,11 @@
     },
     {
         "Id": 13011,
-        "IsReleased": 13011,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "モモイ",
         "School": "Millennium",
         "StarGrade": 2,
@@ -715,7 +919,11 @@
     },
     {
         "Id": 10017,
-        "IsReleased": 10017,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "チェリノ",
         "School": "RedWinter",
         "StarGrade": 3,
@@ -729,7 +937,11 @@
     },
     {
         "Id": 26006,
-        "IsReleased": 26006,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ノドカ",
         "School": "RedWinter",
         "StarGrade": 1,
@@ -743,7 +955,11 @@
     },
     {
         "Id": 10018,
-        "IsReleased": 10018,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ユズ",
         "School": "Millennium",
         "StarGrade": 3,
@@ -757,7 +973,11 @@
     },
     {
         "Id": 10019,
-        "IsReleased": 10019,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "アズサ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -771,7 +991,11 @@
     },
     {
         "Id": 23007,
-        "IsReleased": 23007,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ハナコ",
         "School": "Trinity",
         "StarGrade": 2,
@@ -785,7 +1009,11 @@
     },
     {
         "Id": 10020,
-        "IsReleased": 10020,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "コハル",
         "School": "Trinity",
         "StarGrade": 3,
@@ -799,7 +1027,11 @@
     },
     {
         "Id": 10021,
-        "IsReleased": 10021,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "アズサ（水着）",
         "School": "Trinity",
         "StarGrade": 3,
@@ -813,7 +1045,11 @@
     },
     {
         "Id": 20004,
-        "IsReleased": 20004,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "マシロ（水着）",
         "School": "Trinity",
         "StarGrade": 3,
@@ -827,7 +1063,11 @@
     },
     {
         "Id": 16005,
-        "IsReleased": 16005,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ツルギ（水着）",
         "School": "Trinity",
         "StarGrade": 1,
@@ -841,7 +1081,11 @@
     },
     {
         "Id": 20005,
-        "IsReleased": 20005,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ヒフミ（水着）",
         "School": "Trinity",
         "StarGrade": 3,
@@ -855,7 +1099,11 @@
     },
     {
         "Id": 10022,
-        "IsReleased": 10022,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ヒナ（水着）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -869,7 +1117,11 @@
     },
     {
         "Id": 10023,
-        "IsReleased": 10023,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "イオリ（水着）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -883,7 +1135,11 @@
     },
     {
         "Id": 16006,
-        "IsReleased": 16006,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "イズミ（水着）",
         "School": "Gehenna",
         "StarGrade": 1,
@@ -897,7 +1153,11 @@
     },
     {
         "Id": 10024,
-        "IsReleased": 10024,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "シロコ（ライディング）",
         "School": "Abydos",
         "StarGrade": 3,
@@ -911,7 +1171,11 @@
     },
     {
         "Id": 10025,
-        "IsReleased": 10025,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "シュン（幼女）",
         "School": "Shanhaijing",
         "StarGrade": 3,
@@ -925,7 +1189,11 @@
     },
     {
         "Id": 13012,
-        "IsReleased": 13012,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "キリノ",
         "School": "Valkyrie",
         "StarGrade": 2,
@@ -939,7 +1207,11 @@
     },
     {
         "Id": 20006,
-        "IsReleased": 20006,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "サヤ（私服）",
         "School": "Shanhaijing",
         "StarGrade": 3,
@@ -953,7 +1225,11 @@
     },
     {
         "Id": 10026,
-        "IsReleased": 10026,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ネル（バニーガール）",
         "School": "Millennium",
         "StarGrade": 3,
@@ -967,7 +1243,11 @@
     },
     {
         "Id": 10027,
-        "IsReleased": 10027,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "カリン（バニーガール）",
         "School": "Millennium",
         "StarGrade": 3,
@@ -981,7 +1261,11 @@
     },
     {
         "Id": 10028,
-        "IsReleased": 10028,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "アスナ（バニーガール）",
         "School": "Millennium",
         "StarGrade": 3,
@@ -995,7 +1279,11 @@
     },
     {
         "Id": 10029,
-        "IsReleased": 10029,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ナツ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -1009,7 +1297,11 @@
     },
     {
         "Id": 23008,
-        "IsReleased": 23008,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "マリー",
         "School": "Trinity",
         "StarGrade": 2,
@@ -1023,7 +1315,11 @@
     },
     {
         "Id": 20007,
-        "IsReleased": 20007,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "初音ミク",
         "School": "ETC",
         "StarGrade": 3,
@@ -1037,7 +1333,11 @@
     },
     {
         "Id": 20008,
-        "IsReleased": 20008,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "アコ",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -1051,7 +1351,11 @@
     },
     {
         "Id": 20009,
-        "IsReleased": 20009,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "チェリノ（温泉）",
         "School": "RedWinter",
         "StarGrade": 3,
@@ -1065,7 +1369,11 @@
     },
     {
         "Id": 10030,
-        "IsReleased": 10030,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "チナツ（温泉）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -1079,7 +1387,11 @@
     },
     {
         "Id": 16007,
-        "IsReleased": 16007,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "トモエ",
         "School": "RedWinter",
         "StarGrade": 1,
@@ -1093,7 +1405,11 @@
     },
     {
         "Id": 20010,
-        "IsReleased": 20010,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ノドカ（温泉）",
         "School": "RedWinter",
         "StarGrade": 3,
@@ -1107,7 +1423,11 @@
     },
     {
         "Id": 10031,
-        "IsReleased": 10031,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "アル（正月）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -1121,7 +1441,11 @@
     },
     {
         "Id": 10032,
-        "IsReleased": 10032,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ムツキ（正月）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -1135,7 +1459,11 @@
     },
     {
         "Id": 20011,
-        "IsReleased": 20011,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "セリカ（正月）",
         "School": "Abydos",
         "StarGrade": 3,
@@ -1149,7 +1477,11 @@
     },
     {
         "Id": 10033,
-        "IsReleased": 10033,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ワカモ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -1163,7 +1495,11 @@
     },
     {
         "Id": 16008,
-        "IsReleased": 16008,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "フブキ",
         "School": "Valkyrie",
         "StarGrade": 1,
@@ -1177,7 +1513,11 @@
     },
     {
         "Id": 20012,
-        "IsReleased": 20012,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "セナ",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -1191,7 +1531,11 @@
     },
     {
         "Id": 20013,
-        "IsReleased": 20013,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "チヒロ",
         "School": "Millennium",
         "StarGrade": 3,
@@ -1205,7 +1549,11 @@
     },
     {
         "Id": 10034,
-        "IsReleased": 10034,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ミモリ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -1219,7 +1567,11 @@
     },
     {
         "Id": 10035,
-        "IsReleased": 10035,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ウイ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -1233,7 +1585,11 @@
     },
     {
         "Id": 10036,
-        "IsReleased": 10036,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ヒナタ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -1247,7 +1603,11 @@
     },
     {
         "Id": 10037,
-        "IsReleased": 10037,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "マリナ",
         "School": "RedWinter",
         "StarGrade": 3,
@@ -1261,7 +1621,11 @@
     },
     {
         "Id": 10038,
-        "IsReleased": 10038,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ミヤコ",
         "School": "SRT",
         "StarGrade": 3,
@@ -1275,7 +1639,11 @@
     },
     {
         "Id": 20014,
-        "IsReleased": 20014,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "サキ",
         "School": "SRT",
         "StarGrade": 3,
@@ -1289,7 +1657,11 @@
     },
     {
         "Id": 10039,
-        "IsReleased": 10039,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ミユ",
         "School": "SRT",
         "StarGrade": 3,
@@ -1303,7 +1675,11 @@
     },
     {
         "Id": 20015,
-        "IsReleased": 20015,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "カエデ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -1317,7 +1693,11 @@
     },
     {
         "Id": 20016,
-        "IsReleased": 20016,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "イロハ",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -1331,7 +1711,11 @@
     },
     {
         "Id": 16009,
-        "IsReleased": 16009,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ミチル",
         "School": "Hyakkiyako",
         "StarGrade": 1,
@@ -1345,7 +1729,11 @@
     },
     {
         "Id": 10040,
-        "IsReleased": 10040,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "ツクヨ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -1359,7 +1747,11 @@
     },
     {
         "Id": 10041,
-        "IsReleased": 10041,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ミサキ",
         "School": "Arius",
         "StarGrade": 3,
@@ -1373,7 +1765,11 @@
     },
     {
         "Id": 20017,
-        "IsReleased": 20017,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ヒヨリ",
         "School": "Arius",
         "StarGrade": 3,
@@ -1387,7 +1783,11 @@
     },
     {
         "Id": 10042,
-        "IsReleased": 10042,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "アツコ",
         "School": "Arius",
         "StarGrade": 3,
@@ -1401,7 +1801,11 @@
     },
     {
         "Id": 10043,
-        "IsReleased": 10043,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ワカモ（水着）",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -1415,7 +1819,11 @@
     },
     {
         "Id": 10044,
-        "IsReleased": 10044,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ノノミ（水着）",
         "School": "Abydos",
         "StarGrade": 3,
@@ -1429,7 +1837,11 @@
     },
     {
         "Id": 26007,
-        "IsReleased": 26007,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "アヤネ（水着）",
         "School": "Abydos",
         "StarGrade": 1,
@@ -1443,7 +1855,11 @@
     },
     {
         "Id": 10045,
-        "IsReleased": 10045,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ホシノ（水着）",
         "School": "Abydos",
         "StarGrade": 3,
@@ -1457,7 +1873,11 @@
     },
     {
         "Id": 26008,
-        "IsReleased": 26008,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "シズコ（水着）",
         "School": "Hyakkiyako",
         "StarGrade": 1,
@@ -1471,7 +1891,11 @@
     },
     {
         "Id": 10046,
-        "IsReleased": 10046,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "イズナ（水着）",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -1485,7 +1909,11 @@
     },
     {
         "Id": 10047,
-        "IsReleased": 10047,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "チセ（水着）",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -1499,7 +1927,11 @@
     },
     {
         "Id": 10048,
-        "IsReleased": 10048,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "サオリ",
         "School": "Arius",
         "StarGrade": 3,
@@ -1513,7 +1945,11 @@
     },
     {
         "Id": 20018,
-        "IsReleased": 20018,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
         "Name": "モエ",
         "School": "SRT",
         "StarGrade": 3,
@@ -1527,7 +1963,11 @@
     },
     {
         "Id": 10049,
-        "IsReleased": 10049,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "カズサ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -1541,7 +1981,11 @@
     },
     {
         "Id": 10050,
-        "IsReleased": 10050,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ココナ",
         "School": "Shanhaijing",
         "StarGrade": 3,
@@ -1555,7 +1999,11 @@
     },
     {
         "Id": 10051,
-        "IsReleased": 10051,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ウタハ（応援団）",
         "School": "Millennium",
         "StarGrade": 3,
@@ -1569,7 +2017,11 @@
     },
     {
         "Id": 10052,
-        "IsReleased": 10052,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ノア",
         "School": "Millennium",
         "StarGrade": 3,
@@ -1583,7 +2035,11 @@
     },
     {
         "Id": 16010,
-        "IsReleased": 16010,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ヒビキ（応援団）",
         "School": "Millennium",
         "StarGrade": 1,
@@ -1597,7 +2053,11 @@
     },
     {
         "Id": 20019,
-        "IsReleased": 20019,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "アカネ（バニーガール）",
         "School": "Millennium",
         "StarGrade": 3,
@@ -1611,7 +2071,11 @@
     },
     {
         "Id": 10053,
-        "IsReleased": 10053,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ユウカ（体操服）",
         "School": "Millennium",
         "StarGrade": 3,
@@ -1625,7 +2089,11 @@
     },
     {
         "Id": 10054,
-        "IsReleased": 10054,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "マリー（体操服）",
         "School": "Trinity",
         "StarGrade": 3,
@@ -1639,7 +2107,11 @@
     },
     {
         "Id": 16011,
-        "IsReleased": 16011,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ハスミ（体操服）",
         "School": "Trinity",
         "StarGrade": 1,
@@ -1653,7 +2125,11 @@
     },
     {
         "Id": 20020,
-        "IsReleased": 20020,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ヒマリ",
         "School": "Millennium",
         "StarGrade": 3,
@@ -1667,7 +2143,11 @@
     },
     {
         "Id": 10055,
-        "IsReleased": 10055,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "シグレ",
         "School": "RedWinter",
         "StarGrade": 3,
@@ -1681,7 +2161,11 @@
     },
     {
         "Id": 10056,
-        "IsReleased": 10056,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "セリナ（クリスマス）",
         "School": "Trinity",
         "StarGrade": 3,
@@ -1695,7 +2179,11 @@
     },
     {
         "Id": 20021,
-        "IsReleased": 20021,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ハナエ（クリスマス）",
         "School": "Trinity",
         "StarGrade": 3,
@@ -1709,7 +2197,11 @@
     },
     {
         "Id": 10057,
-        "IsReleased": 10057,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ハルナ（正月）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -1723,7 +2215,11 @@
     },
     {
         "Id": 20022,
-        "IsReleased": 20022,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "フウカ（正月）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -1737,7 +2233,11 @@
     },
     {
         "Id": 16012,
-        "IsReleased": 16012,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ジュンコ（正月）",
         "School": "Gehenna",
         "StarGrade": 1,
@@ -1751,7 +2251,11 @@
     },
     {
         "Id": 10058,
-        "IsReleased": 10058,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ミネ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -1765,7 +2269,11 @@
     },
     {
         "Id": 10059,
-        "IsReleased": 10059,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ミカ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -1779,7 +2287,11 @@
     },
     {
         "Id": 10060,
-        "IsReleased": 10060,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "メグ",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -1793,7 +2305,11 @@
     },
     {
         "Id": 20023,
-        "IsReleased": 20023,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "カンナ",
         "School": "Valkyrie",
         "StarGrade": 3,
@@ -1807,7 +2323,11 @@
     },
     {
         "Id": 10061,
-        "IsReleased": 10061,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "サクラコ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -1821,7 +2341,11 @@
     },
     {
         "Id": 10062,
-        "IsReleased": 10062,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "トキ",
         "School": "Millennium",
         "StarGrade": 3,
@@ -1835,7 +2359,11 @@
     },
     {
         "Id": 20024,
-        "IsReleased": 20024,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ナギサ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -1849,7 +2377,11 @@
     },
     {
         "Id": 10063,
-        "IsReleased": 10063,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "コユキ",
         "School": "Millennium",
         "StarGrade": 3,
@@ -1863,7 +2395,11 @@
     },
     {
         "Id": 10064,
-        "IsReleased": 10064,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "カヨコ（正月）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -1877,7 +2413,11 @@
     },
     {
         "Id": 20025,
-        "IsReleased": 20025,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ハルカ（正月）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -1891,7 +2431,11 @@
     },
     {
         "Id": 10065,
-        "IsReleased": 10065,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "カホ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -1905,7 +2449,11 @@
     },
     {
         "Id": 10066,
-        "IsReleased": 10066,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "アリス（メイド）",
         "School": "Millennium",
         "StarGrade": 3,
@@ -1919,7 +2467,11 @@
     },
     {
         "Id": 10067,
-        "IsReleased": 10067,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "トキ（バニーガール）",
         "School": "Millennium",
         "StarGrade": 3,
@@ -1933,7 +2485,11 @@
     },
     {
         "Id": 26009,
-        "IsReleased": 26009,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ユズ（メイド）",
         "School": "Millennium",
         "StarGrade": 1,
@@ -1947,7 +2503,11 @@
     },
     {
         "Id": 10068,
-        "IsReleased": 10068,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "レイサ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -1961,7 +2521,11 @@
     },
     {
         "Id": 10069,
-        "IsReleased": 10069,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ルミ",
         "School": "Shanhaijing",
         "StarGrade": 3,
@@ -1975,7 +2539,11 @@
     },
     {
         "Id": 10070,
-        "IsReleased": 10070,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ミナ",
         "School": "Shanhaijing",
         "StarGrade": 3,
@@ -1989,7 +2557,11 @@
     },
     {
         "Id": 20026,
-        "IsReleased": 20026,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ミノリ",
         "School": "RedWinter",
         "StarGrade": 3,
@@ -2003,7 +2575,11 @@
     },
     {
         "Id": 10071,
-        "IsReleased": 10071,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ミヤコ（水着）",
         "School": "SRT",
         "StarGrade": 3,
@@ -2017,7 +2593,11 @@
     },
     {
         "Id": 10072,
-        "IsReleased": 10072,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "サキ（水着）",
         "School": "SRT",
         "StarGrade": 3,
@@ -2031,7 +2611,11 @@
     },
     {
         "Id": 26010,
-        "IsReleased": 26010,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ミユ（水着）",
         "School": "SRT",
         "StarGrade": 1,
@@ -2045,7 +2629,11 @@
     },
     {
         "Id": 20027,
-        "IsReleased": 20027,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "シロコ（水着）",
         "School": "Abydos",
         "StarGrade": 3,
@@ -2059,7 +2647,11 @@
     },
     {
         "Id": 10073,
-        "IsReleased": 10073,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ウイ（水着）",
         "School": "Trinity",
         "StarGrade": 3,
@@ -2073,7 +2665,11 @@
     },
     {
         "Id": 20028,
-        "IsReleased": 20028,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ヒナタ（水着）",
         "School": "Trinity",
         "StarGrade": 3,
@@ -2087,7 +2683,11 @@
     },
     {
         "Id": 16013,
-        "IsReleased": 16013,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "コハル（水着）",
         "School": "Trinity",
         "StarGrade": 1,
@@ -2101,7 +2701,11 @@
     },
     {
         "Id": 10074,
-        "IsReleased": 10074,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ハナコ（水着）",
         "School": "Trinity",
         "StarGrade": 3,
@@ -2115,7 +2719,11 @@
     },
     {
         "Id": 20029,
-        "IsReleased": 20029,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ミモリ（水着）",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -2129,7 +2737,11 @@
     },
     {
         "Id": 10075,
-        "IsReleased": 10075,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "メル",
         "School": "RedWinter",
         "StarGrade": 3,
@@ -2143,7 +2755,11 @@
     },
     {
         "Id": 13013,
-        "IsReleased": 13013,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "モミジ",
         "School": "RedWinter",
         "StarGrade": 2,
@@ -2157,7 +2773,11 @@
     },
     {
         "Id": 10076,
-        "IsReleased": 10076,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "コトリ（応援団）",
         "School": "Millennium",
         "StarGrade": 3,
@@ -2171,7 +2791,11 @@
     },
     {
         "Id": 20030,
-        "IsReleased": 20030,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "ハルナ（体操服）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -2185,7 +2809,11 @@
     },
     {
         "Id": 10077,
-        "IsReleased": 10077,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "イチカ",
         "School": "Trinity",
         "StarGrade": 3,
@@ -2199,7 +2827,11 @@
     },
     {
         "Id": 10078,
-        "IsReleased": 10078,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "カスミ",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -2213,7 +2845,11 @@
     },
     {
         "Id": 20031,
-        "IsReleased": 20031,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "シグレ（温泉）",
         "School": "RedWinter",
         "StarGrade": 3,
@@ -2227,7 +2863,11 @@
     },
     {
         "Id": 10079,
-        "IsReleased": 10079,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "御坂美琴",
         "School": "Tokiwadai",
         "StarGrade": 3,
@@ -2241,7 +2881,11 @@
     },
     {
         "Id": 10080,
-        "IsReleased": 10080,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "食蜂操祈",
         "School": "Tokiwadai",
         "StarGrade": 3,
@@ -2255,7 +2899,11 @@
     },
     {
         "Id": 26011,
-        "IsReleased": 26011,
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
         "Name": "佐天涙子",
         "School": "Sakugawa",
         "StarGrade": 1,
@@ -2269,7 +2917,11 @@
     },
     {
         "Id": 10081,
-        "IsReleased": 10081,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "ユカリ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -2283,7 +2935,11 @@
     },
     {
         "Id": 10082,
-        "IsReleased": 10082,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "レンゲ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -2297,7 +2953,11 @@
     },
     {
         "Id": 10083,
-        "IsReleased": 10083,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "キキョウ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -2311,7 +2971,11 @@
     },
     {
         "Id": 20032,
-        "IsReleased": 20032,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "エイミ（水着）",
         "School": "Millennium",
         "StarGrade": 3,
@@ -2325,7 +2989,11 @@
     },
     {
         "Id": 10084,
-        "IsReleased": 10084,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "コタマ（キャンプ）",
         "School": "Millennium",
         "StarGrade": 3,
@@ -2339,7 +3007,11 @@
     },
     {
         "Id": 10085,
-        "IsReleased": 10085,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "ハレ（キャンプ）",
         "School": "Millennium",
         "StarGrade": 3,
@@ -2353,7 +3025,11 @@
     },
     {
         "Id": 10087,
-        "IsReleased": 10087,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "アコ（ドレス）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -2367,7 +3043,11 @@
     },
     {
         "Id": 16014,
-        "IsReleased": 16014,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "イブキ",
         "School": "Gehenna",
         "StarGrade": 1,
@@ -2381,7 +3061,11 @@
     },
     {
         "Id": 20033,
-        "IsReleased": 20033,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "マコト",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -2395,7 +3079,11 @@
     },
     {
         "Id": 10086,
-        "IsReleased": 10086,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "ヒナ（ドレス）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -2409,7 +3097,11 @@
     },
     {
         "Id": 10088,
-        "IsReleased": 10088,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "カヨコ（ドレス）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -2423,7 +3115,11 @@
     },
     {
         "Id": 10089,
-        "IsReleased": 10089,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "アル（ドレス）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -2437,7 +3133,11 @@
     },
     {
         "Id": 20034,
-        "IsReleased": 20034,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "アカリ（正月）",
         "School": "Gehenna",
         "StarGrade": 3,
@@ -2451,7 +3151,11 @@
     },
     {
         "Id": 10090,
-        "IsReleased": 10090,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "ウミカ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -2465,7 +3169,11 @@
     },
     {
         "Id": 20035,
-        "IsReleased": 20035,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "ツバキ（ガイド）",
         "School": "Hyakkiyako",
         "StarGrade": 3,
@@ -2479,7 +3187,11 @@
     },
     {
         "Id": 10091,
-        "IsReleased": 10091,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "カズサ（バンド）",
         "School": "Trinity",
         "StarGrade": 3,
@@ -2493,7 +3205,11 @@
     },
     {
         "Id": 10092,
-        "IsReleased": 10092,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "ヨシミ（バンド）",
         "School": "Trinity",
         "StarGrade": 3,
@@ -2507,7 +3223,11 @@
     },
     {
         "Id": 16015,
-        "IsReleased": 16015,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "アイリ（バンド）",
         "School": "Trinity",
         "StarGrade": 1,
@@ -2521,7 +3241,11 @@
     },
     {
         "Id": 10093,
-        "IsReleased": 10093,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
         "Name": "キララ",
         "School": "Gehenna",
         "StarGrade": 3,
