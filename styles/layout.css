@@ -102,9 +102,3 @@ footer{
         grid-template-columns: repeat(2, minmax(100px, 1fr));
     }
 }
-
-@media (max-width: 400px) {
-    #button-container {
-        grid-template-columns: repeat(1, minmax(100px, 1fr));
-    }
-}
