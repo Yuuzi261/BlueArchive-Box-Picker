@@ -34,16 +34,52 @@ main{
     flex: 5 5 150px;
 }
 
+#button-container {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(100px, 1fr));
+    gap: 10px;
+}
+
 footer{
     background: blueviolet;
     padding: 1em 0 1em 0;
 }
 
-@media all and (max-width: 550px){
+@media (max-width: 550px){
     .main{
         flex-direction: column;
     }
     main{
         padding: 5em 0 5em 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    #button-container {
+        grid-template-columns: repeat(5, minmax(100px, 1fr));
+    }
+}
+
+@media (max-width: 1000px) {
+    #button-container {
+        grid-template-columns: repeat(4, minmax(100px, 1fr));
+    }
+}
+
+@media (max-width: 800px) {
+    #button-container {
+        grid-template-columns: repeat(3, minmax(100px, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    #button-container {
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+    }
+}
+
+@media (max-width: 400px) {
+    #button-container {
+        grid-template-columns: repeat(1, minmax(100px, 1fr));
     }
 }
