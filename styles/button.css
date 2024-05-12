@@ -2,16 +2,13 @@
     width: 100px;
     height: 100px;
     background-color: grey;
-    margin: 10px;
-    display: inline-block;
-}
+    display: grid;
+    position: relative;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 .active {
     background-color: green;
-}
-
-#button-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 10px;
 }
