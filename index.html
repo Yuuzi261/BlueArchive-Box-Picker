@@ -18,7 +18,9 @@
             LEFT
         </aside>
         <main>
-            <div id="button-container"></div>
+            <div class="scrollbar" id="scrollbar-style-1">
+                <div id="button-container"></div>
+            </div>
             <script id="button-template" type="text/x-handlebars-template">
                 {{#each roles}}
                 <div class="button rounded-3 {{#if this.active}}active{{/if}}" data-role-id="{{this.Id}}">{{this.Name}}</div>
