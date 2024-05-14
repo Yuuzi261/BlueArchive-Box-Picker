@@ -1,13 +1,19 @@
 .button {
     width: 100px;
-    height: 100px;
+    height: 113px;
     background-color: grey;
     display: grid;
-    position: relative;
-    top: 46%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
   }
+
+.possession__dark {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .33);
+}
 
 .active {
     background-color: green;
