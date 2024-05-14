@@ -25,8 +25,7 @@
             </div>
             <script id="button-template" type="text/x-handlebars-template">
                 {{#each roles}}
-                <div class="button rounded-3 {{#if this.active}}active{{/if}}" style="background-image: url(./student/{{this.Id}}.webp);" data-role-id="{{this.Id}}">
-                    <!-- <div class="possession__dark"></div> -->
+                <div class="button rounded-1 {{#if this.active}}active{{/if}}" style="background-image: url(./student/{{this.Id}}.webp);" data-role-id="{{this.Id}}">
                 </div>
                 {{/each}}
             </script>
