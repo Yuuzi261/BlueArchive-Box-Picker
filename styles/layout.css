@@ -36,8 +36,8 @@ main{
 
 #button-container {
     display: grid;
-    grid-template-columns: repeat(6, minmax(100px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 15px;
 }
 
 .scrollbar{
@@ -76,29 +76,5 @@ footer{
     }
     main{
         padding: 5em 0 5em 0;
-    }
-}
-
-@media (max-width: 1200px) {
-    #button-container {
-        grid-template-columns: repeat(5, minmax(100px, 1fr));
-    }
-}
-
-@media (max-width: 1000px) {
-    #button-container {
-        grid-template-columns: repeat(4, minmax(100px, 1fr));
-    }
-}
-
-@media (max-width: 800px) {
-    #button-container {
-        grid-template-columns: repeat(3, minmax(100px, 1fr));
-    }
-}
-
-@media (max-width: 600px) {
-    #button-container {
-        grid-template-columns: repeat(2, minmax(100px, 1fr));
     }
 }
