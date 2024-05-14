@@ -17,7 +17,9 @@
     </Header>
     <div class="main">
         <aside class="left">
-            LEFT
+            <div class="scrollbar" id="scrollbar-style-1">
+                LEFT
+            </div>
         </aside>
         <main>
             <div class="scrollbar" id="scrollbar-style-1">
@@ -25,8 +27,7 @@
             </div>
             <script id="button-template" type="text/x-handlebars-template">
                 {{#each roles}}
-                <div class="button rounded-1 {{#if this.active}}active{{/if}}" style="background-image: url(./student/{{this.Id}}.webp);" data-role-id="{{this.Id}}">
-                </div>
+                <div class="button {{#if this.active}}active{{/if}}" style="background-image: url(./student/{{this.Id}}.webp);" data-role-id="{{this.Id}}"></div>
                 {{/each}}
             </script>
         </main>
