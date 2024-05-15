@@ -8,6 +8,16 @@
     <link rel="stylesheet" type="text/css" href="styles\button.css">
     <link rel="stylesheet" type="text/css" href="styles\layout.css">
 
+    <!-- Noto Sans JP -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Noto Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
 </head>
 
@@ -22,6 +32,7 @@
             </div>
         </aside>
         <main>
+            <script src="./js/font.js"></script>
             <div class="scrollbar" id="scrollbar-style-1">
                 <div id="button-container"></div>
             </div>
@@ -29,8 +40,8 @@
                 {{#each roles}}
                 <div class="button {{#if this.active}}active{{/if}}" style="background-image: url(./student/{{this.Id}}.webp);" data-role-id="{{this.Id}}">
                     <div class="card-label">
-                        <span class="label-text">{{this.Name}}</span>
-                        <span class="label-text hover " style="display: none;">{{this.Name}}</span>
+                        {{fontSize this.Name 'normal'}}
+                        {{fontSize this.Name 'hover'}}
                     </div>
                 </div>
                 {{/each}}

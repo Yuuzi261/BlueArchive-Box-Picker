@@ -67,8 +67,8 @@
 .button .card-label .label-text {
     text-align: center;
     padding: 0 .2rem;
-    font-size: 0.65rem;
-    font-weight: 550;
+    font-size: 1rem;
+    font-weight: 400;
     word-wrap: break-word;
     display: -webkit-box;
     -webkit-line-clamp: 2;
