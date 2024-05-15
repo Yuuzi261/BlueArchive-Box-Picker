@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="ja">
     <title>BA Box Checker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
@@ -27,7 +27,12 @@
             </div>
             <script id="button-template" type="text/x-handlebars-template">
                 {{#each roles}}
-                <div class="button {{#if this.active}}active{{/if}}" style="background-image: url(./student/{{this.Id}}.webp);" data-role-id="{{this.Id}}"></div>
+                <div class="button {{#if this.active}}active{{/if}}" style="background-image: url(./student/{{this.Id}}.webp);" data-role-id="{{this.Id}}">
+                    <div class="card-label">
+                        <span class="label-text">{{this.Name}}</span>
+                        <span class="label-text hover " style="display: none;">{{this.Name}}</span>
+                    </div>
+                </div>
                 {{/each}}
             </script>
         </main>
