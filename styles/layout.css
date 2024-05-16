@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background/BG_MainOffice_Night.jpg");
     background-size: cover;
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(5px);
 }
 
 header {
@@ -56,6 +56,8 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 15px;
     padding: 8vh 1vw 2vh 1vw;
+    justify-items: center;
+    align-items: center;
 }
 
 .scrollbar {
