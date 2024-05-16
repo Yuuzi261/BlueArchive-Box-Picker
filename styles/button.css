@@ -61,6 +61,7 @@
     background-color: rgba(40, 40, 40, 0.835);
     border-radius: 0% 0% 10% 10%;
     margin: 0;
+    pointer-events: none;
     z-index: 10;
 }
 
@@ -77,6 +78,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     letter-spacing: 0.13rem;
+    user-select: none;
 }
 
 .button .card-label .label-text.hover {
