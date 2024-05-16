@@ -12,7 +12,13 @@ body {
     flex-direction: column;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background/BG_MainOffice_Night.jpg");
     background-size: cover;
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
+}
+
+main {
+    /* background: blueviolet; */
+    /* padding: 3em 0 3em 0; */
+    flex: 5 5 150px;
 }
 
 header {
@@ -45,10 +51,15 @@ aside {
     flex: 1 1 100px;
 }
 
-main {
-    /* background: blueviolet; */
-    /* padding: 3em 0 3em 0; */
-    flex: 5 5 150px;
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /* backdrop-filter: blur(5px); */
+    transition: opacity 1s ease-in-out;
 }
 
 #button-container {
