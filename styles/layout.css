@@ -16,26 +16,34 @@ body {
     transition: background-image 1s ease-in-out; */
 }
 
+.bg_container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
 .bg_img {
     width: 100%;
     height: 100%;
     position: absolute;
-    margin: 0 auto;
     top: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background/BG_MainOffice_Night.jpg");
+    left: 0;
     background-size: cover;
-    opacity: 1;
-    filter: blur(1px);
-    transition: opacity 1s ease-in-out;
+    background-position: center;
+    transition: opacity 3s ease-in-out;
 }
 
-.fade-out {
-    opacity: 0.35;
+.bg_img.fade-out {
+    opacity: 0;
 }
 
-.fade-in {
+.bg_img.fade-in {
     opacity: 1;
 }
+
 
 main {
     /* background: blueviolet; */
