@@ -6,12 +6,11 @@ const backgrounds = [
     "/images/background/BG_MainOffice_Table3.png"
 ];
 
-const bgImg1 = document.querySelector('.bg_img_1');
-const bgImg2 = document.querySelector('.bg_img_2');
+const body = document.querySelector('body');
+const overlay = document.querySelector('.background-overlay');
 
-let currentIndex = 1;
-const interval = 60; // seconds
-const transitionDuration = 3; // seconds
+let currentIndex = 0;
+const interval = 10; // unit: second
 
 const preloadImage = (src) => {
     const img = new Image();
@@ -19,22 +18,22 @@ const preloadImage = (src) => {
 };
 
 const switchBackground = () => {
-    const newBackground = backgrounds[currentIndex];
-    const fadingInImg = (bgImg1.classList.contains('fade-in')) ? bgImg2 : bgImg1;
-    const fadingOutImg = (bgImg1.classList.contains('fade-in')) ? bgImg1 : bgImg2;
+    overlay.style.opacity = 0;
 
-    fadingInImg.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("${newBackground}")`;
+    setTimeout(() => {
+        const newBackground = backgrounds[currentIndex];
+        overlay.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("${newBackground}")`;
+        overlay.style.opacity = 1;
+    }, 1000); // Duration of fade out transition (1 second)
 
-    fadingOutImg.classList.remove('fade-in');
-    fadingOutImg.classList.add('fade-out');
+    setTimeout(() => {
+        const newBackground = backgrounds[currentIndex];
+        body.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("${newBackground}")`;
+        overlay.style.opacity = 0;
+        currentIndex = (currentIndex + 1) % backgrounds.length;
+        preloadImage(backgrounds[currentIndex]);
+    }, 2000)
 
-    fadingInImg.classList.remove('fade-out');
-    fadingInImg.classList.add('fade-in');
-
-    currentIndex = (currentIndex + 1) % backgrounds.length;
-    preloadImage(backgrounds[currentIndex]);
-
-    setTimeout(switchBackground, interval * 1000);
 };
 
 // Set initial images
