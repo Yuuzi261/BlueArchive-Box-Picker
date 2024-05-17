@@ -10,9 +10,31 @@ body {
     font-size: 24px;
     display: flex;
     flex-direction: column;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background/BG_MainOffice_Night.jpg");
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    transition: background-image 1s ease-in-out; */
+}
+
+.bg_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background/BG_MainOffice_Night.jpg");
     background-size: cover;
-    /* backdrop-filter: blur(5px); */
+    opacity: 1;
+    filter: blur(1px);
+    transition: opacity 2.3s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
 }
 
 main {
