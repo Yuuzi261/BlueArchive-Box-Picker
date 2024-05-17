@@ -10,7 +10,7 @@ const body = document.querySelector('.bg_img');
 
 let currentIndex = 0;
 const interval = 7; // unit: second
-const transitionDuration = 2.3; // unit: second
+const transitionDuration = 1; // unit: second
 
 const preloadImage = (src) =>{
     const img = new Image();
