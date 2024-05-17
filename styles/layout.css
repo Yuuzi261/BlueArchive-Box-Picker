@@ -50,7 +50,7 @@ aside {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background/BG_MainOffice_Night.jpg");
     background-size: cover;
     filter: blur(2px);
-    transition: opacity 1s ease-in-out;
+    transition: opacity 3s ease-in-out;
 }
 
 #button-container {

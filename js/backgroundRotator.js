@@ -10,7 +10,8 @@ const overlay_p = document.querySelector('#bo-p');
 const overlay_a = document.querySelector('#bo-a');
 
 let currentIndex = 0;
-const interval = 30; // unit: second
+const interval = 60;    // unit: second
+const duration = 3;     // unit: second
 
 const preloadImage = (src) => {
     const img = new Image();
@@ -24,7 +25,7 @@ const switchBackground = () => {
         const newBackground = backgrounds[currentIndex];
         overlay_a.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("${newBackground}")`;
         overlay_a.style.opacity = 1;
-    }, 1000); // Duration of fade out transition (1 second)
+    }, duration * 1000); // Duration of fade out transition (1 second)
 
     setTimeout(() => {
         const newBackground = backgrounds[currentIndex];
@@ -32,7 +33,7 @@ const switchBackground = () => {
         overlay_a.style.opacity = 0;
         currentIndex = (currentIndex + 1) % backgrounds.length;
         preloadImage(backgrounds[currentIndex]);
-    }, 2000)
+    }, (duration*2) * 1000)
 
 };
 
