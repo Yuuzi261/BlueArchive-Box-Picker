@@ -103,10 +103,6 @@
     cursor: pointer;
 }
 
-.hidden {
-    display: none;
-}
-
 @media only screen and (max-width: 991px) {
     .button .card-label {
         height: 22px;
