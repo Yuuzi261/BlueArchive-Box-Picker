@@ -27,10 +27,11 @@
         <div class="bg_img bg_img_2 fade-out"></div>
     </div>
     <script src="./js/backgroundRotator.js"></script>
-    <header style="user-select: none;">
+    <!-- <header style="user-select: none;">
         HEADER
-    </header>
+    </header> -->
     <div class="main">
+        <button id="toggle-button" class="hidden">顯示左側欄</button>
         <aside class="left">
             <div class="scrollbar" id="scrollbar-style-1" style="height: 90vh;">
                 <div style="padding: 8vh; user-select: none;">LEFT</div>
@@ -38,7 +39,7 @@
         </aside>
         <main>
             <script src="./js/font.js"></script>
-            <div class="scrollbar" id="scrollbar-style-1" style="height: 100vh;">
+            <div class="scrollbar" id="scrollbar-style-1">
                 <div id="button-container"></div>
             </div>
             <script id="button-template" type="text/x-handlebars-template">
@@ -59,5 +60,6 @@
 
 
     <script src="main.js"></script>
+    <script src="./js/toggleSidebar.js"></script>
 </body>
 </html>
