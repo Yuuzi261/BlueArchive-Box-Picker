@@ -1,5 +1,6 @@
 let roles = [];
 let state_maps = [];
+let filters = { Main: false, Support: false };
 
 Promise.all([
     fetch('data/jp/students.json')
@@ -18,12 +19,26 @@ function initializeApp(roles, state_maps) {
     const buttonTemplate = Handlebars.compile(document.getElementById('button-template').innerHTML);
     const buttonContainer = document.getElementById('button-container');
     buttonContainer.innerHTML = buttonTemplate({ roles });
-    
+
     buttonContainer.addEventListener('click', function(event) {
         if (event.target.classList.contains('button')) {
             const roleId = parseInt(event.target.dataset.roleId);
             toggleButton(event.target, roleId, roles, state_maps);
         }
+    });
+
+    document.getElementById('filter-main').addEventListener('click', function() {
+        filters.Main = !filters.Main;
+        this.classList.toggle('btn-primary', filters.Main);
+        this.classList.toggle('btn-secondary', !filters.Main);
+        updateButtonVisibility(roles, buttonContainer);
+    });
+
+    document.getElementById('filter-support').addEventListener('click', function() {
+        filters.Support = !filters.Support;
+        this.classList.toggle('btn-primary', filters.Support);
+        this.classList.toggle('btn-secondary', !filters.Support);
+        updateButtonVisibility(roles, buttonContainer);
     });
 
     updateButtonStates(roles, state_maps, buttonContainer);
@@ -47,7 +62,9 @@ function updateButtonStates(roles, state_maps, buttonContainer) {
             }
         }
     });
-}  
+
+    updateButtonVisibility(roles, buttonContainer);
+}
 
 function toggleButton(button, roleId, roles, state_maps) {
     const role = roles.find(role => role.Id === roleId);
@@ -100,4 +117,19 @@ function decodeState(hash) {
     result = result.slice(0, result.length - padZero);
 
     return result;
+}
+
+function updateButtonVisibility(roles, buttonContainer) {
+    roles.forEach(role => {
+        const button = buttonContainer.querySelector(`[data-role-id="${role.Id}"]`);
+        if (button) {
+            if ((filters.Main && role.SquadType === 'Main') || 
+                (filters.Support && role.SquadType === 'Support') || 
+                (!filters.Main && !filters.Support)) {
+                button.style.display = '';
+            } else {
+                button.style.display = 'none';
+            }
+        }
+    });
 }
