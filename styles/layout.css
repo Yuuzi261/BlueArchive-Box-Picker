@@ -40,7 +40,7 @@ aside {
     background-color: rgba(33, 37, 41, .578);
     backdrop-filter: blur(10px);
     border-radius: 0.375rem;
-    flex: 0 0 100px;
+    flex: 1 1 100px;
 }
 
 .bg_container {
@@ -112,6 +112,9 @@ footer {
 }
 
 @media (max-width: 550px) {
+    aside {
+        margin: 0;
+    }
     .main{
         flex-direction: column;
     }
@@ -120,6 +123,14 @@ footer {
     }
     .left{
         display: none;
+    }
+    #button-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 15px;
+        padding: 20px 0;
+        justify-items: center;
+        align-items: center;
     }
 }
 
