@@ -38,7 +38,7 @@ const filtersMap = {
     'filter-middle': 'Position.Middle',
     'filter-back': 'Position.Back',
     'filter-abydos': 'School.Abydos',
-    'filter-arius': 'School.Abydos',
+    'filter-arius': 'School.Arius',
     'filter-gehenna': 'School.Gehenna',
     'filter-hyakkiyako': 'School.Hyakkiyako',
     'filter-millennium': 'School.Millennium',
