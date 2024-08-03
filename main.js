@@ -85,6 +85,7 @@ function initializeApp(roles, state_maps) {
         if (event.target.classList.contains('button')) {
             const roleId = parseInt(event.target.dataset.roleId);
             toggleButton(event.target, roleId, roles, state_maps);
+            calculatePossessionRate();
         }
     });
 
@@ -95,8 +96,31 @@ function initializeApp(roles, state_maps) {
             this.classList.toggle('btn-primary', filters[keys[0]][keys[1]]);
             this.classList.toggle('btn-secondary', !filters[keys[0]][keys[1]]);
             updateButtonVisibility(roles, buttonContainer);
+            calculatePossessionRate();
         });
     });
+
+    document.getElementById('select-all').addEventListener('click', function() {
+        const buttons = document.querySelectorAll('.button');
+    
+        buttons.forEach(button => {
+            selectAll(button, true);
+        });
+    
+        updateURL(roles, state_maps);
+        calculatePossessionRate();
+    });
+
+    document.getElementById('deselect-all').addEventListener('click', function() {
+        const buttons = document.querySelectorAll('.button');
+    
+        buttons.forEach(button => {
+            selectAll(button, false);
+        });
+    
+        updateURL(roles, state_maps);
+        calculatePossessionRate();
+    });    
 
     updateButtonStates(roles, state_maps, buttonContainer);
     window.onhashchange = () => updateButtonStates(roles, state_maps, buttonContainer);
@@ -194,5 +218,33 @@ function updateButtonVisibility(roles, buttonContainer) {
             button.style.display = isVisible ? '' : 'none';
         }
     });
+}
+
+function calculatePossessionRate() {
+    const buttons = document.querySelectorAll('.button');
+    let possession = 0, total = 0;
+
+    buttons.forEach(button => {
+        if (button.style.display != 'none') {
+            total++;
+            if (button.classList.contains('active')) possession++;
+        }
+    });
+
+    document.getElementById('possession-rate').innerText = (possession / total * 100).toFixed(2) + '%';
+}
+
+function selectAll(button, bool) {
+    if (button.style.display !== 'none') {
+        const roleId = parseInt(button.dataset.roleId);
+        const role = roles.find(role => role.Id === roleId);
+        if (!role) {
+            console.error('Invalid role ID:', roleId);
+            return;
+        }
+
+        role.active = bool;
+        button.classList.toggle('active', bool);
+    }
 }
 
