@@ -1,6 +1,67 @@
 let roles = [];
 let state_maps = [];
-let filters = { Main: false, Support: false };
+let filters = { 
+    SquadType: { Main: false, Support: false },
+    TacticRole: { Tanker: false, DamageDealer: false, Healer: false, Supporter: false, Vehicle: false },
+    StarGrade: [ false, false, false ],
+    IsLimited: [ false, false, false ],
+    BulletType: { Explosion: false, Pierce: false, Mystic: false, Sonic: false },
+    ArmorType: { LightArmor: false, HeavyArmor: false, Unarmed: false, ElasticArmor: false },
+    Position: { Front: false, Middle: false, Back: false },
+    School: { Abydos: false, Arius: false, Gehenna: false, Hyakkiyako: false, Millennium: false, RedWinter: false, Shanhaijing: false, SRT: false, Trinity: false, Valkyrie: false, ETC: false, Tokiwadai: false, Sakugawa: false },
+    WeaponType: { SG: false, SMG: false, AR: false, GL: false, HG: false, RL: false, SR: false, RG: false, MG: false, MT: false, FT: false }
+};
+
+const filtersMap = {
+    'filter-main': 'SquadType.Main',
+    'filter-support': 'SquadType.Support',
+    'filter-tanker': 'TacticRole.Tanker',
+    'filter-damage-dealer': 'TacticRole.DamageDealer',
+    'filter-healer': 'TacticRole.Healer',
+    'filter-supporter': 'TacticRole.Supporter',
+    'filter-vehicle': 'TacticRole.Vehicle',
+    'filter-star-grade-3': 'StarGrade.2',
+    'filter-star-grade-2': 'StarGrade.1',
+    'filter-star-grade-1': 'StarGrade.0',
+    'filter-is-limited-1': 'IsLimited.1',
+    'filter-is-limited-2': 'IsLimited.2',
+    'filter-is-limited-0': 'IsLimited.0',
+    'filter-explosion': 'BulletType.Explosion',
+    'filter-pierce': 'BulletType.Pierce',
+    'filter-mystic': 'BulletType.Mystic',
+    'filter-sonic': 'BulletType.Sonic',
+    'filter-light-armor': 'ArmorType.LightArmor',
+    'filter-heavy-armor': 'ArmorType.HeavyArmor',
+    'filter-unarmored': 'ArmorType.Unarmed',
+    'filter-elastic-armor': 'ArmorType.ElasticArmor',
+    'filter-front': 'Position.Front',
+    'filter-middle': 'Position.Middle',
+    'filter-back': 'Position.Back',
+    'filter-abydos': 'School.Abydos',
+    'filter-arius': 'School.Abydos',
+    'filter-gehenna': 'School.Gehenna',
+    'filter-hyakkiyako': 'School.Hyakkiyako',
+    'filter-millennium': 'School.Millennium',
+    'filter-red-winter': 'School.RedWinter',
+    'filter-shanhaijing': 'School.Shanhaijing',
+    'filter-srt': 'School.SRT',
+    'filter-trinity': 'School.Trinity',
+    'filter-valkyrie': 'School.Valkyrie',
+    'filter-etc': 'School.ETC',
+    'filter-tokiwadai': 'School.Tokiwadai',
+    'filter-sakugawa': 'School.Sakugawa',
+    'filter-sg': 'WeaponType.SG',
+    'filter-smg': 'WeaponType.SMG',
+    'filter-ar': 'WeaponType.AR',
+    'filter-gl': 'WeaponType.GL',
+    'filter-hg': 'WeaponType.HG',
+    'filter-rl': 'WeaponType.RL',
+    'filter-sr': 'WeaponType.SR',
+    'filter-rg': 'WeaponType.RG',
+    'filter-mg': 'WeaponType.MG',
+    'filter-mt': 'WeaponType.MT',
+    'filter-ft': 'WeaponType.FT',
+};
 
 Promise.all([
     fetch('data/jp/students.json')
@@ -27,18 +88,14 @@ function initializeApp(roles, state_maps) {
         }
     });
 
-    document.getElementById('filter-main').addEventListener('click', function() {
-        filters.Main = !filters.Main;
-        this.classList.toggle('btn-primary', filters.Main);
-        this.classList.toggle('btn-secondary', !filters.Main);
-        updateButtonVisibility(roles, buttonContainer);
-    });
-
-    document.getElementById('filter-support').addEventListener('click', function() {
-        filters.Support = !filters.Support;
-        this.classList.toggle('btn-primary', filters.Support);
-        this.classList.toggle('btn-secondary', !filters.Support);
-        updateButtonVisibility(roles, buttonContainer);
+    Object.keys(filtersMap).forEach(id => {
+        document.getElementById(id).addEventListener('click', function() {
+            const keys = filtersMap[id].split('.');
+            filters[keys[0]][keys[1]] = !filters[keys[0]][keys[1]];
+            this.classList.toggle('btn-primary', filters[keys[0]][keys[1]]);
+            this.classList.toggle('btn-secondary', !filters[keys[0]][keys[1]]);
+            updateButtonVisibility(roles, buttonContainer);
+        });
     });
 
     updateButtonStates(roles, state_maps, buttonContainer);
@@ -123,13 +180,19 @@ function updateButtonVisibility(roles, buttonContainer) {
     roles.forEach(role => {
         const button = buttonContainer.querySelector(`[data-role-id="${role.Id}"]`);
         if (button) {
-            if ((filters.Main && role.SquadType === 'Main') || 
-                (filters.Support && role.SquadType === 'Support') || 
-                (!filters.Main && !filters.Support)) {
-                button.style.display = '';
-            } else {
-                button.style.display = 'none';
-            }
+            const isVisible = Object.keys(filters).every(category => {
+                const filter = filters[category];
+                if (Array.isArray(filter)) {
+                    const allFalse = filter.every(selected => !selected);
+                    if (category === 'StarGrade') return allFalse || filter.some((selected, index) => selected && role[category] === index + 1);
+                    else return allFalse || filter.some((selected, index) => selected && role[category] === index);
+                } else {
+                    const allFalse = Object.values(filter).every(selected => !selected);
+                    return allFalse || Object.keys(filter).some(key => filter[key] && role[category] === key);
+                }
+            });
+            button.style.display = isVisible ? '' : 'none';
         }
     });
 }
+
