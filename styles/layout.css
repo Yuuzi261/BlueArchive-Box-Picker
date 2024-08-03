@@ -11,7 +11,9 @@ body {
 }
 
 main {
+    display: block;
     flex: 5 5 150px;
+    padding: 0;
 }
 
 header {
@@ -82,6 +84,7 @@ aside {
 
 .scrollbar {
     padding: 0px 5px 0px 5px;
+    height: 100vh;
     overflow-y: scroll;
 }
 
@@ -109,10 +112,33 @@ footer {
 }
 
 @media (max-width: 550px) {
+    aside {
+        margin: 0;
+    }
     .main{
         flex-direction: column;
     }
-    main{
-        padding: 5em 0 5em 0;
+    .scrollbar{
+        height: 90vh;
+    }
+    .left{
+        display: none;
+    }
+    #button-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 15px;
+        padding: 20px 0;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 551px) {
+    .left {
+        display: block !important;
+    }
+    main {
+        display: block !important;
     }
 }
