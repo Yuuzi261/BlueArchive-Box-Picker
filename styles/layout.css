@@ -23,7 +23,7 @@ main {
 header {
     background-color: rgba(33, 37, 41, .578);
     backdrop-filter: blur(10px);
-    /* position: fixed; */
+    position: fixed;
     line-height: 6dvh;
     top: 0;
     height: auto;
@@ -101,7 +101,7 @@ aside {
 .button-container-scrollbar {
     margin: 0;
     padding: 0 10px 0 10px;
-    height: 87dvh;
+    height: 100dvh;
     overflow-y: scroll;
 }
 
@@ -201,7 +201,9 @@ footer {
     .left {
         margin: 0;
     }
-    
+    header {
+        position: static;
+    }
 }
 
 @media (min-width: 1000px) {
