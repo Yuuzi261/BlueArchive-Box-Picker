@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+h5 {
+    text-align: left;
+}
+
 body {
     font-family: "Noto Sans", "Noto Sans JP", sans-serif;
     text-align: center;
@@ -11,24 +15,37 @@ body {
 }
 
 main {
+    margin: 3dvh 0 0 0;
     display: block;
     flex: 5 5 150px;
-    padding: 0;
 }
 
 header {
     background-color: rgba(33, 37, 41, .578);
     backdrop-filter: blur(10px);
-    line-height: 6vh;
-    position: fixed;
+    /* position: fixed; */
+    line-height: 6dvh;
     top: 0;
-    height: 6vh;
+    height: auto;
     width: 100%;
     z-index: 1030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.horizontal-container {
+    display: flex;
+    align-items: center;
+}
+.horizontal-container h5, .horizontal-container h6 {
+    margin: 0 10px;
 }
 
 aside {
-    margin: 8vh 0 2vh 1vw;
+    margin: 3dvh 1dvh 0 1dvh;
+    padding: 0;
 }
 
 .main {
@@ -37,7 +54,7 @@ aside {
 }
 
 .left {
-    background-color: rgba(33, 37, 41, .578);
+    margin: 3dvh 0 0 0;
     backdrop-filter: blur(10px);
     border-radius: 0.375rem;
     flex: 1 1 100px;
@@ -77,19 +94,59 @@ aside {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 15px;
-    padding: 8vh 1vw 2vh 1vw;
     justify-items: center;
     align-items: center;
 }
 
-.scrollbar {
-    padding: 0px 5px 0px 5px;
-    height: 100vh;
+.button-container-scrollbar {
+    margin: 0;
+    padding: 0 10px 0 10px;
+    height: 87dvh;
     overflow-y: scroll;
 }
 
+.rate-container{
+    background-color: rgba(33, 37, 41, .578);
+    display: flex;
+    margin: 0 0 1dvh 1dvh;
+    flex-direction: column;
+    padding: 1dvh;
+    height: 17dvh;
+}
+
+.rate-container > div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    padding-bottom: 3dvh;
+}
+
+.sidebar {
+    background-color: rgba(33, 37, 41, .578);
+    display: flex;
+    margin: 0 0 0 1dvh;
+    padding: 0;
+    height: 69dvh;
+    overflow-y: scroll;
+}
+
+.sidebar > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sidebar > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 2dvh;
+}
+
+
 #scrollbar-style-1::-webkit-scrollbar {
-    width: 6px;
+    width: 2px;
 }
 
 #scrollbar-style-1::-webkit-scrollbar-track,
@@ -111,34 +168,50 @@ footer {
     padding: 1em 0 1em 0;
 }
 
-@media (max-width: 550px) {
+@media all and (max-width: 1000px) {
     aside {
         margin: 0;
     }
     .main{
         flex-direction: column;
     }
-    .scrollbar{
-        height: 90vh;
+    .button-container-scrollbar{
+        height: 67dvh;
+        padding-bottom: 10px;
     }
-    .left{
+    .sidebar{
+        margin: 0;
+        height: 87dvh;
         display: none;
     }
-    #button-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        gap: 15px;
-        padding: 20px 0;
-        justify-items: center;
-        align-items: center;
+    .rate-container{
+        background-color: rgba(33, 37, 41, .578);
+        display: flex;
+        margin: 1dvh 0 1dvh 0;
+        padding: 1dvh;
+        height: 17dvh;
     }
+    .rate-container > div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 10px;
+        padding-bottom: 3dvh;
+    }
+    .left {
+        margin: 0;
+    }
+    
 }
 
-@media (min-width: 551px) {
-    .left {
+@media (min-width: 1000px) {
+    .sidebar {
         display: block !important;
     }
     main {
+        display: block !important;
+    }
+    .rate-container {
         display: block !important;
     }
 }

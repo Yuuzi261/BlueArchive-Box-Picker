@@ -1,3 +1,7 @@
+.btn {
+    font-size: 12px;
+}
+
 .button {
     width: 100px;
     height: 113px;
@@ -92,7 +96,6 @@
 
 #toggle-button {
     display: none;
-    bottom: 10px;
     right: 10px;
     padding: 10px 20px;
     background-color: #007bff;
@@ -103,13 +106,21 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 991px) {
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+@media only screen and (max-width: 1000px) {
     .button .card-label {
         height: 22px;
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 1000px) {
     #toggle-button {
         display: block;
     }

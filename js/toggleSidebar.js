@@ -1,16 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('toggle-button').addEventListener('click', function() {
-        var leftSidebar = document.querySelector('.left');
+        var leftSidebar = document.querySelector('.sidebar');
         var mainContent = document.querySelector('main');
+        var rateContainer = document.querySelector(".rate-container")
         
         if (leftSidebar.style.display === 'none' || leftSidebar.style.display === '') {
             leftSidebar.style.display = 'block';
             mainContent.style.display = 'none';
-            this.textContent = '隐藏左侧欄';
+            rateContainer.style.display = 'none'
         } else {
             leftSidebar.style.display = 'none';
             mainContent.style.display = 'block';
-            this.textContent = '顯示左側欄';
+            rateContainer.style.display = 'block'
         }
     });
 });
