@@ -18,6 +18,7 @@ main {
     margin: 3dvh 0 0 0;
     display: block;
     flex: 5 5 150px;
+    transition: opacity 0.3s ease-in;
 }
 
 header {
@@ -30,7 +31,7 @@ header {
     width: 100%;
     z-index: 1030;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-bottom: 10px;
 }
@@ -110,10 +111,12 @@ aside {
     backdrop-filter: blur(10px);
     display: flex;
     margin: 0 0 1dvh 0dvh;
-    flex-direction: column;
-    padding: 1dvh;
+    flex-direction: row;
+    padding: 2dvh 1dvh 1dvh 1dvh;
     height: 17dvh;
     border-radius: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .rate-container > div {
@@ -121,7 +124,9 @@ aside {
     flex-direction: row;
     width: 100%;
     gap: 10px;
-    padding-bottom: 3dvh;
+    padding-bottom: 4dvh;
+    justify-content: center;
+    align-items: center;
 }
 
 .sidebar {
@@ -131,13 +136,15 @@ aside {
     display: flex;
     padding: 0;
     height: 69dvh;
-    overflow-y: scroll;
+    overflow-y: hidden;
+    transition: max-height 0.3s ease-out;
 }
 
 .sidebar > div {
     display: flex;
     flex-direction: column;
     height: 100%;
+    overflow-y: scroll
 }
 
 .sidebar > div > div {
@@ -191,18 +198,23 @@ footer {
         display: none;
     }
     .rate-container{
-        background-color: rgba(33, 37, 41, .578);
+        background-color: transparent;
+        backdrop-filter: blur(0px);
         display: flex;
-        margin: 1dvh 0 1dvh 0;
-        padding: 1dvh;
-        height: 17dvh;
+        flex-direction: row;
+        margin: 1dvh 0 0 0;
+        padding: 0;
+        height: 10dvh;
+        transition: opacity 0.3s ease-in;
     }
     .rate-container > div {
         display: flex;
         flex-direction: row;
         width: 100%;
         gap: 10px;
-        padding-bottom: 3dvh;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
     }
     .left {
         padding: 0;
