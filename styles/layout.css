@@ -44,7 +44,7 @@ header {
 }
 
 aside {
-    margin: 3dvh 0 0 1dvh;
+    margin: 10dvh 0 2dvh 3dvh;
     padding: 0;
 }
 
@@ -54,8 +54,7 @@ aside {
 }
 
 .left {
-    padding: 8dvh 0 0 0;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     border-radius: 0.375rem;
     flex: 1 1 100px;
 }
@@ -96,7 +95,7 @@ aside {
     gap: 15px;
     justify-items: center;
     align-items: center;
-    padding: 8dvh 1dvw 2dvh 1dvw;
+    padding: 7dvh 1dvw 3dvh 1dvw;
 }
 
 .button-container-scrollbar {
@@ -108,11 +107,13 @@ aside {
 
 .rate-container{
     background-color: rgba(33, 37, 41, .578);
+    backdrop-filter: blur(10px);
     display: flex;
-    margin: 0 0 1dvh 1dvh;
+    margin: 0 0 1dvh 0dvh;
     flex-direction: column;
     padding: 1dvh;
     height: 17dvh;
+    border-radius: 5px;
 }
 
 .rate-container > div {
@@ -125,8 +126,9 @@ aside {
 
 .sidebar {
     background-color: rgba(33, 37, 41, .578);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
     display: flex;
-    margin: 0 0 0 1dvh;
     padding: 0;
     height: 69dvh;
     overflow-y: scroll;
