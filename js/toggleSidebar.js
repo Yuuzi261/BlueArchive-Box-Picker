@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 leftSidebar.style.display = 'block';
                 leftSidebar.style.maxHeight = '0px';
                 setTimeout(function() {
-                    leftSidebar.style.maxHeight = '87dvh';
+                    leftSidebar.style.maxHeight = '120dvh';
                 }, 10);
             } else {
                 leftSidebar.style.maxHeight = '0px';

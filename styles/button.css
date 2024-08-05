@@ -128,13 +128,10 @@
     'opsz' 24
     }
 
-@media only screen and (max-width: 1000px) {
+@media (max-width: 992px) {
     .button .card-label {
         height: 22px;
     }
-}
-
-@media (max-width: 1000px) {
     #toggle-button {
         display: flex;
     }

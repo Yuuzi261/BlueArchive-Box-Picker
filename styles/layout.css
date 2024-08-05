@@ -28,7 +28,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 1030;
-    height: 60px;
+    height: 6dvh;
 }
 
 .header-content {
@@ -36,7 +36,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    padding: 0 10px 0 0
+    padding: 0 10px
 }
 
 .header-title {
@@ -132,7 +132,7 @@ aside {
     background-color: rgba(33, 37, 41, .578);
     backdrop-filter: blur(10px);
     display: flex;
-    margin: 0 0 1dvh 0dvh;
+    margin: 0 0 1dvh 0;
     padding: 0;
     height: 20dvh;
     border-radius: 5px;
@@ -195,68 +195,7 @@ aside {
     min-height: 450px;
 }
 
-footer {
+/* footer {
     background: blueviolet;
     padding: 1em 0 1em 0;
-}
-
-@media all and (max-width: 1000px) {
-    aside {
-        margin: 0;
-    }
-    main {
-        margin: 0;
-    }
-    .main{
-        flex-direction: column;
-    }
-    #button-container {
-        padding: 0;
-    }
-    .button-container-scrollbar{
-        height: 76dvh;
-        padding: 0 5px 10px 5px;
-    }    
-    .sidebar{
-        margin: 0;
-        border-radius: 0;
-        height: 87dvh;
-        display: none;
-    }
-    .rate-container{
-        background-color: transparent;
-        backdrop-filter: blur(0px);
-        display: flex;
-        margin: 1dvh 0 0 0;
-        padding: 0;
-        height: 10dvh;
-        transition: opacity 0.3s ease-in;
-    }
-    .rate-container > div {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 1dvh;
-    }
-    .left {
-        padding: 0;
-        margin: 0;
-    }
-    header {
-        position: static;
-    }
-}
-
-@media (min-width: 1000px) {
-    .sidebar {
-        display: block !important;
-    }
-    main {
-        display: block !important;
-    }
-    .rate-container {
-        display: block !important;
-    }
-}
+} */
