@@ -78,7 +78,6 @@ aside {
 }
 
 .left {
-    /* backdrop-filter: blur(10px); */
     border-radius: 0.375rem;
     flex: 1 1 100px;
 }
@@ -134,23 +133,24 @@ aside {
     backdrop-filter: blur(10px);
     display: flex;
     margin: 0 0 1dvh 0dvh;
-    flex-direction: row;
-    padding: 2dvh 1dvh 1dvh 1dvh;
-    height: 17dvh;
+    padding: 0;
+    height: 20dvh;
     border-radius: 5px;
-    justify-content: center;
-    align-items: center;
+    overflow-y: hidden;
 }
 
 .rate-container > div {
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
     gap: 10px;
-    padding-bottom: 4dvh;
     justify-content: center;
     align-items: center;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
 }
+
 
 .sidebar {
     background-color: rgba(33, 37, 41, .578);
@@ -158,7 +158,7 @@ aside {
     border-radius: 5px;
     display: flex;
     padding: 0;
-    height: 69dvh;
+    height: 66dvh;
     overflow-y: hidden;
     transition: max-height 0.3s ease-out;
 }
@@ -176,7 +176,6 @@ aside {
     gap: 10px;
     padding-bottom: 2dvh;
 }
-
 
 #scrollbar-style-1::-webkit-scrollbar {
     width: 2px;
@@ -228,16 +227,14 @@ footer {
         background-color: transparent;
         backdrop-filter: blur(0px);
         display: flex;
-        flex-direction: row;
         margin: 1dvh 0 0 0;
         padding: 0;
-        height: 5dvh;
+        height: 10dvh;
         transition: opacity 0.3s ease-in;
     }
     .rate-container > div {
         display: flex;
-        flex-direction: row;
-        width: 100%;
+        flex-direction: column;
         gap: 10px;
         justify-content: center;
         align-items: center;
