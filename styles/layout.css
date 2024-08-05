@@ -215,8 +215,8 @@ footer {
         padding: 0;
     }
     .button-container-scrollbar{
-        height: 67dvh;
-        padding: 0 0 10px 0;
+        height: 76dvh;
+        padding: 0 5px 10px 5px;
     }    
     .sidebar{
         margin: 0;
@@ -231,7 +231,7 @@ footer {
         flex-direction: row;
         margin: 1dvh 0 0 0;
         padding: 0;
-        height: 10dvh;
+        height: 5dvh;
         transition: opacity 0.3s ease-in;
     }
     .rate-container > div {
