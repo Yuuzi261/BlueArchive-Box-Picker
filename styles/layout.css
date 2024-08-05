@@ -36,7 +36,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    padding: 0 30px;
+    padding: 0 10px 0 0
 }
 
 .header-title {
@@ -212,14 +212,15 @@ footer {
         flex-direction: column;
     }
     #button-container {
-        padding: 0 1dvw 2dvh 1dvw;
+        padding: 0;
     }
     .button-container-scrollbar{
         height: 67dvh;
-        padding-bottom: 10px;
-    }
+        padding: 0 0 10px 0;
+    }    
     .sidebar{
         margin: 0;
+        border-radius: 0;
         height: 87dvh;
         display: none;
     }
