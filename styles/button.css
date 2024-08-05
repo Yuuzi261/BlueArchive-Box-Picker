@@ -104,6 +104,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    padding: 0;
   }
 
 #more-vert-button {
@@ -116,6 +117,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    padding: 0;
 }
 
 .material-symbols-outlined {
