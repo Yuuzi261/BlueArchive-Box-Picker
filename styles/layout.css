@@ -25,15 +25,38 @@ header {
     background-color: rgba(33, 37, 41, .578);
     backdrop-filter: blur(10px);
     position: fixed;
-    line-height: 6dvh;
     top: 0;
-    height: auto;
     width: 100%;
     z-index: 1030;
+    height: 60px;
+}
+
+.header-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 10px;
+    height: 100%;
+    padding: 0 30px;
+}
+
+.header-title {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70%;
+    flex: 1;
+    margin: 10px 0;
+}
+
+.header-filter {
+    display: flex;
+    align-items: center;
+}
+
+.header-more-vert {
+    display: flex;
+    align-items: center;
 }
 
 .horizontal-container {
@@ -182,6 +205,9 @@ footer {
     aside {
         margin: 0;
     }
+    main {
+        margin: 0;
+    }
     .main{
         flex-direction: column;
     }
@@ -214,7 +240,7 @@ footer {
         gap: 10px;
         justify-content: center;
         align-items: center;
-        padding-bottom: 0;
+        padding-bottom: 1dvh;
     }
     .left {
         padding: 0;
