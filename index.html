@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="styles\layout.css">
 
     <!-- Google Material -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <!-- Noto Sans JP -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,13 +31,24 @@
     </div>
     <script src="./js/backgroundRotator.js"></script>
     <header style="user-select: none;">
-        HEADER
-        <button id="toggle-button" class="hidden">
-            <span class="material-symbols-outlined">
-                filter_list
-            </span>
-        </button>
-    </header>    
+        <div class="header-content">
+            <div class="header-filter">
+                <button id="toggle-button">
+                    <span class="material-symbols-outlined">
+                        filter_list
+                    </span>
+                </button>
+            </div>
+            <div class="header-title">BlueArchive Box Picker</div>
+            <div class="header-more-vert">
+                <button id="more-vert-button">
+                    <span class="material-symbols-outlined">
+                        more_vert
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
     <div class="main">
         <aside class="left">
             <div class="rate-container">
