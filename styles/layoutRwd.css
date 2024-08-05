@@ -1,0 +1,58 @@
+@media (max-width: 600) {
+    
+}
+
+@media (max-width: 768) {
+    
+}
+
+@media (max-width: 992px) {
+    header {
+        position: static;
+    }
+    .main {
+        flex-direction: column;
+    }
+    main {
+        margin: 0;
+    }
+    #button-container {
+        padding: 0;
+    }
+    .button-container-scrollbar {
+        /* height: calc(100dvh - 10dvh - 6dvh);  */
+        padding-bottom: 10px;
+    }
+    .rate-container {
+        background-color: transparent;
+        backdrop-filter: blur(0px);
+        height: 10dvh;
+        margin: 0;
+        transition: opacity 0.3s ease-in;
+    }
+    aside {
+        margin: 0;
+    }
+    .left {
+        padding-top: 1dvh;
+        margin: 0;
+    }
+    .sidebar {
+        margin: 0;
+        border-radius: 0;
+        height: 87dvh;
+        display: none;
+    }
+}
+
+@media (min-width: 993px) {
+    .sidebar {
+        display: block;
+    }
+    main {
+        display: block;
+    }
+    .rate-container {
+        display: block;
+    }
+}
