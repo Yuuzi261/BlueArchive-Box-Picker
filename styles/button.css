@@ -96,24 +96,36 @@
 
 #toggle-button {
     display: none;
-    /* right: 10px; */
-    padding: 0;
-    background-color: #007bff;
-    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(33, 37, 41, .578);
     border: none;
     border-radius: 5px;
-    width: 30px;
-    height: 30px;
+    cursor: pointer;
+  }
+
+#more-vert-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(33, 37, 41, .578);
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
+    color: white;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+    }
 
 @media only screen and (max-width: 1000px) {
     .button .card-label {
@@ -123,6 +135,6 @@
 
 @media (max-width: 1000px) {
     #toggle-button {
-        display: block;
+        display: flex;
     }
 }
