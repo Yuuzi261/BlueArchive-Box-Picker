@@ -1,6 +1,5 @@
 function updateSidebarContainerHeight() {
     const headerHeight = document.querySelector('header').offsetHeight;
-    // const leftHeight = document.querySelector('.left').offsetHeight;
     const sidebarContainer = document.querySelector('.sidebar');
     
     sidebarContainer.style.height = `calc(100vh - ${headerHeight}px)`;
