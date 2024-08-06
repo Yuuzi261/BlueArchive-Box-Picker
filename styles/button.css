@@ -127,12 +127,3 @@
     'GRAD' 0,
     'opsz' 24
     }
-
-@media (max-width: 992px) {
-    .button .card-label {
-        height: 22px;
-    }
-    #toggle-button {
-        display: flex;
-    }
-}
