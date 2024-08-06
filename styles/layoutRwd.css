@@ -39,7 +39,7 @@
     .sidebar {
         margin: 0;
         border-radius: 0;
-        height: 87dvh;
+        /* height: 100%; */
         display: none;
     }
 }

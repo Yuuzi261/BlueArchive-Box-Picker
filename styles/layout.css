@@ -156,7 +156,7 @@ aside {
     background-color: rgba(33, 37, 41, .578);
     backdrop-filter: blur(10px);
     border-radius: 5px;
-    display: flex;
+    /* display: flex; */
     padding: 0;
     height: 66dvh;
     overflow-y: hidden;
