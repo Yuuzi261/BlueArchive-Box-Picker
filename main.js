@@ -122,6 +122,21 @@ function initializeApp(roles, state_maps) {
         calculatePossessionRate();
     });    
 
+    document.getElementById('filter-clear').addEventListener('click', function() {
+        resetFilters(filters);
+        filter_btns = document.querySelectorAll('.filter');
+        
+        filter_btns.forEach(button => {
+            if (button.classList.contains('btn-primary')) {
+                button.classList.remove('btn-primary');
+                button.classList.add('btn-secondary');
+            }
+        });
+
+        updateButtonVisibility(roles, buttonContainer);
+        calculatePossessionRate();
+    });  
+
     updateButtonStates(roles, state_maps, buttonContainer);
     window.onhashchange = () => updateButtonStates(roles, state_maps, buttonContainer);
 }
@@ -245,6 +260,18 @@ function selectAll(button, bool) {
 
         role.active = bool;
         button.classList.toggle('active', bool);
+    }
+}
+
+function resetFilters(obj) {
+    for (let key in obj) {
+        if (typeof obj[key] === 'object' && !Array.isArray(obj[key])) {
+            resetFilters(obj[key]);
+        } else if (Array.isArray(obj[key])) {
+            obj[key] = obj[key].map(value => value === true ? false : value);
+        } else if (obj[key] === true) {
+            obj[key] = false;
+        }
     }
 }
 
