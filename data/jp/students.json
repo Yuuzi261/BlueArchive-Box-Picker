@@ -10,7 +10,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -28,7 +30,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -46,7 +50,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -64,7 +70,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -82,7 +90,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -100,7 +110,9 @@
         "School": "Abydos",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -118,7 +130,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -136,7 +150,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -154,7 +170,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Front",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -172,7 +190,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -190,7 +210,9 @@
         "School": "Abydos",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -208,7 +230,9 @@
         "School": "Shanhaijing",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -226,7 +250,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Front",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -244,7 +270,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Front",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -262,7 +290,9 @@
         "School": "Millennium",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -280,7 +310,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -298,7 +330,9 @@
         "School": "Gehenna",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -316,7 +350,9 @@
         "School": "Trinity",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -334,7 +370,9 @@
         "School": "Abydos",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -352,7 +390,9 @@
         "School": "Gehenna",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -370,7 +410,9 @@
         "School": "Gehenna",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -388,7 +430,9 @@
         "School": "Gehenna",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -406,7 +450,9 @@
         "School": "Abydos",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -424,7 +470,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -442,7 +490,9 @@
         "School": "Millennium",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -460,7 +510,9 @@
         "School": "Gehenna",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -478,7 +530,9 @@
         "School": "Millennium",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -496,7 +550,9 @@
         "School": "Millennium",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -514,7 +570,9 @@
         "School": "Trinity",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -532,7 +590,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -550,7 +610,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -568,7 +630,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -586,7 +650,9 @@
         "School": "Shanhaijing",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -604,7 +670,9 @@
         "School": "Trinity",
         "StarGrade": 2,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -622,7 +690,9 @@
         "School": "Gehenna",
         "StarGrade": 2,
         "SquadType": "Support",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -640,7 +710,9 @@
         "School": "Trinity",
         "StarGrade": 2,
         "SquadType": "Support",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -658,7 +730,9 @@
         "School": "Millennium",
         "StarGrade": 2,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -676,7 +750,9 @@
         "School": "Millennium",
         "StarGrade": 2,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -694,7 +770,9 @@
         "School": "Abydos",
         "StarGrade": 2,
         "SquadType": "Support",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -712,7 +790,9 @@
         "School": "Gehenna",
         "StarGrade": 1,
         "SquadType": "Support",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -730,7 +810,9 @@
         "School": "Millennium",
         "StarGrade": 1,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -748,7 +830,9 @@
         "School": "Gehenna",
         "StarGrade": 1,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -766,7 +850,9 @@
         "School": "Trinity",
         "StarGrade": 1,
         "SquadType": "Support",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -784,7 +870,9 @@
         "School": "Trinity",
         "StarGrade": 1,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -802,7 +890,9 @@
         "School": "Trinity",
         "StarGrade": 1,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -820,7 +910,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -838,7 +930,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Front",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -856,7 +950,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 2,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -874,7 +970,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -892,7 +990,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -910,7 +1010,9 @@
         "School": "Millennium",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -928,7 +1030,9 @@
         "School": "RedWinter",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -946,7 +1050,9 @@
         "School": "RedWinter",
         "StarGrade": 1,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -964,7 +1070,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -982,7 +1090,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -1000,7 +1110,9 @@
         "School": "Trinity",
         "StarGrade": 2,
         "SquadType": "Support",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -1018,7 +1130,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -1036,7 +1150,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -1054,7 +1170,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -1072,7 +1190,9 @@
         "School": "Trinity",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Front",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -1090,7 +1210,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Vehicle",
+        "TacticRole": [
+            "Vehicle"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -1108,7 +1230,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -1126,7 +1250,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -1144,7 +1270,9 @@
         "School": "Gehenna",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -1162,7 +1290,9 @@
         "School": "Abydos",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -1180,7 +1310,9 @@
         "School": "Shanhaijing",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -1198,7 +1330,9 @@
         "School": "Valkyrie",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -1216,7 +1350,9 @@
         "School": "Shanhaijing",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -1234,7 +1370,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -1252,7 +1390,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -1270,7 +1410,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -1288,7 +1430,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -1306,7 +1450,9 @@
         "School": "Trinity",
         "StarGrade": 2,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -1324,7 +1470,9 @@
         "School": "ETC",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -1342,7 +1490,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -1360,7 +1510,9 @@
         "School": "RedWinter",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Vehicle",
+        "TacticRole": [
+            "Vehicle"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -1378,7 +1530,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -1396,7 +1550,9 @@
         "School": "RedWinter",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -1414,7 +1570,9 @@
         "School": "RedWinter",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -1432,7 +1590,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -1450,7 +1610,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -1468,7 +1630,9 @@
         "School": "Abydos",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -1486,7 +1650,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -1504,7 +1670,9 @@
         "School": "Valkyrie",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -1522,7 +1690,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Vehicle",
+        "TacticRole": [
+            "Vehicle"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -1540,7 +1710,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -1558,7 +1730,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -1576,7 +1750,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -1594,7 +1770,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -1612,7 +1790,9 @@
         "School": "RedWinter",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -1630,7 +1810,9 @@
         "School": "SRT",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -1648,7 +1830,9 @@
         "School": "SRT",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -1666,7 +1850,9 @@
         "School": "SRT",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -1684,7 +1870,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -1702,7 +1890,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Vehicle",
+        "TacticRole": [
+            "Vehicle"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -1720,7 +1910,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Front",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -1738,7 +1930,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -1750,13 +1944,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "ミサキ",
         "School": "Arius",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -1768,13 +1964,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "ヒヨリ",
         "School": "Arius",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -1786,13 +1984,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "アツコ",
         "School": "Arius",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -1804,13 +2004,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "ワカモ（水着）",
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -1822,13 +2024,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "ノノミ（水着）",
         "School": "Abydos",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -1840,13 +2044,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "アヤネ（水着）",
         "School": "Abydos",
         "StarGrade": 1,
         "SquadType": "Support",
-        "TacticRole": "Vehicle",
+        "TacticRole": [
+            "Vehicle"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -1858,13 +2064,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "ホシノ（水着）",
         "School": "Abydos",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Front",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -1876,13 +2084,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "シズコ（水着）",
         "School": "Hyakkiyako",
         "StarGrade": 1,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -1894,13 +2104,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "イズナ（水着）",
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Front",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -1912,13 +2124,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "チセ（水着）",
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -1930,13 +2144,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "サオリ",
         "School": "Arius",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -1954,7 +2170,9 @@
         "School": "SRT",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -1966,13 +2184,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "カズサ",
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -1990,7 +2210,9 @@
         "School": "Shanhaijing",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Middle",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -2002,13 +2224,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "ウタハ（応援団）",
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Front",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -2020,13 +2244,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "ノア",
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -2038,13 +2264,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "ヒビキ（応援団）",
         "School": "Millennium",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -2062,7 +2290,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -2074,13 +2304,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "ユウカ（体操服）",
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -2092,13 +2324,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "マリー（体操服）",
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -2110,13 +2344,15 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Name": "ハスミ（体操服）",
         "School": "Trinity",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -2134,7 +2370,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -2152,7 +2390,9 @@
         "School": "RedWinter",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -2170,7 +2410,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -2188,7 +2430,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -2206,7 +2450,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -2224,7 +2470,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -2242,7 +2490,9 @@
         "School": "Gehenna",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -2260,7 +2510,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -2278,7 +2530,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Front",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -2296,7 +2550,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Front",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -2314,7 +2570,9 @@
         "School": "Valkyrie",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -2332,7 +2590,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -2350,7 +2610,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "ElasticArmor",
@@ -2368,7 +2630,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -2386,7 +2650,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -2404,7 +2670,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -2422,7 +2690,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -2440,7 +2710,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -2458,7 +2730,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -2476,7 +2750,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -2494,7 +2770,9 @@
         "School": "Millennium",
         "StarGrade": 1,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "ElasticArmor",
@@ -2512,7 +2790,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -2530,7 +2810,9 @@
         "School": "Shanhaijing",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Front",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -2548,7 +2830,9 @@
         "School": "Shanhaijing",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -2566,7 +2850,9 @@
         "School": "RedWinter",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -2584,7 +2870,9 @@
         "School": "SRT",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Tanker",
+        "TacticRole": [
+            "Tanker"
+        ],
         "Position": "Front",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -2602,7 +2890,9 @@
         "School": "SRT",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -2620,7 +2910,9 @@
         "School": "SRT",
         "StarGrade": 1,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -2638,7 +2930,9 @@
         "School": "Abydos",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "LightArmor",
@@ -2656,7 +2950,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "ElasticArmor",
@@ -2674,7 +2970,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -2692,7 +2990,9 @@
         "School": "Trinity",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -2710,7 +3010,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Sonic",
         "ArmorType": "HeavyArmor",
@@ -2728,7 +3030,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -2746,7 +3050,9 @@
         "School": "RedWinter",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -2764,7 +3070,9 @@
         "School": "RedWinter",
         "StarGrade": 2,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Sonic",
         "ArmorType": "HeavyArmor",
@@ -2782,7 +3090,9 @@
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -2800,7 +3110,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Back",
         "BulletType": "Sonic",
         "ArmorType": "HeavyArmor",
@@ -2818,7 +3130,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Sonic",
         "ArmorType": "HeavyArmor",
@@ -2836,7 +3150,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Sonic",
         "ArmorType": "HeavyArmor",
@@ -2854,7 +3170,9 @@
         "School": "RedWinter",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Healer",
+        "TacticRole": [
+            "Healer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -2872,7 +3190,9 @@
         "School": "Tokiwadai",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -2890,7 +3210,9 @@
         "School": "Tokiwadai",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "HeavyArmor",
@@ -2908,7 +3230,9 @@
         "School": "Sakugawa",
         "StarGrade": 1,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -2919,14 +3243,16 @@
         "Id": 10081,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Name": "ユカリ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Sonic",
         "ArmorType": "HeavyArmor",
@@ -2937,14 +3263,16 @@
         "Id": 10082,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Name": "レンゲ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Sonic",
         "ArmorType": "HeavyArmor",
@@ -2955,14 +3283,16 @@
         "Id": 10083,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Name": "キキョウ",
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Sonic",
         "ArmorType": "HeavyArmor",
@@ -2973,14 +3303,16 @@
         "Id": 20032,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Name": "エイミ（水着）",
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -2991,14 +3323,16 @@
         "Id": 10084,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Name": "コタマ（キャンプ）",
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -3009,14 +3343,16 @@
         "Id": 10085,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Name": "ハレ（キャンプ）",
         "School": "Millennium",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "LightArmor",
@@ -3027,14 +3363,16 @@
         "Id": 10087,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Name": "アコ（ドレス）",
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -3045,14 +3383,16 @@
         "Id": 16014,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Name": "イブキ",
         "School": "Gehenna",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "HeavyArmor",
@@ -3063,14 +3403,16 @@
         "Id": 20033,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Name": "マコト",
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "Unarmed",
@@ -3081,14 +3423,16 @@
         "Id": 10086,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Name": "ヒナ（ドレス）",
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "ElasticArmor",
@@ -3106,7 +3450,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Pierce",
         "ArmorType": "LightArmor",
@@ -3124,7 +3470,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -3142,7 +3490,9 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Vehicle",
+        "TacticRole": [
+            "Vehicle"
+        ],
         "Position": "Back",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -3160,7 +3510,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Mystic",
         "ArmorType": "Unarmed",
@@ -3178,7 +3530,9 @@
         "School": "Hyakkiyako",
         "StarGrade": 3,
         "SquadType": "Support",
-        "TacticRole": "Supporter",
+        "TacticRole": [
+            "Supporter"
+        ],
         "Position": "Back",
         "BulletType": "Pierce",
         "ArmorType": "HeavyArmor",
@@ -3196,7 +3550,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Back",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -3214,7 +3570,9 @@
         "School": "Trinity",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -3232,7 +3590,9 @@
         "School": "Trinity",
         "StarGrade": 1,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Front",
         "BulletType": "Explosion",
         "ArmorType": "Unarmed",
@@ -3250,11 +3610,254 @@
         "School": "Gehenna",
         "StarGrade": 3,
         "SquadType": "Main",
-        "TacticRole": "DamageDealer",
+        "TacticRole": [
+            "DamageDealer"
+        ],
         "Position": "Middle",
         "BulletType": "Sonic",
         "ArmorType": "LightArmor",
         "WeaponType": "AR",
         "IsLimited": 0
+    },
+    {
+        "Id": 10094,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Name": "モモイ（メイド）",
+        "School": "Millennium",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": [
+            "DamageDealer"
+        ],
+        "Position": "Middle",
+        "BulletType": "Sonic",
+        "ArmorType": "LightArmor",
+        "WeaponType": "AR",
+        "IsLimited": 0
+    },
+    {
+        "Id": 10095,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Name": "ミドリ（メイド）",
+        "School": "Millennium",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": [
+            "DamageDealer"
+        ],
+        "Position": "Back",
+        "BulletType": "Sonic",
+        "ArmorType": "LightArmor",
+        "WeaponType": "SR",
+        "IsLimited": 0
+    },
+    {
+        "Id": 20036,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Name": "セリカ（水着）",
+        "School": "Abydos",
+        "StarGrade": 3,
+        "SquadType": "Support",
+        "TacticRole": [
+            "DamageDealer"
+        ],
+        "Position": "Back",
+        "BulletType": "Mystic",
+        "ArmorType": "HeavyArmor",
+        "WeaponType": "AR",
+        "IsLimited": 0
+    },
+    {
+        "Id": 10096,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Name": "カンナ（水着）",
+        "School": "Valkyrie",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": [
+            "Supporter"
+        ],
+        "Position": "Middle",
+        "BulletType": "Explosion",
+        "ArmorType": "LightArmor",
+        "WeaponType": "HG",
+        "IsLimited": 0
+    },
+    {
+        "Id": 20037,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Name": "フブキ（水着）",
+        "School": "Valkyrie",
+        "StarGrade": 3,
+        "SquadType": "Support",
+        "TacticRole": [
+            "DamageDealer"
+        ],
+        "Position": "Back",
+        "BulletType": "Explosion",
+        "ArmorType": "HeavyArmor",
+        "WeaponType": "SR",
+        "IsLimited": 0
+    },
+    {
+        "Id": 26012,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Name": "キリノ（水着）",
+        "School": "Valkyrie",
+        "StarGrade": 1,
+        "SquadType": "Support",
+        "TacticRole": [
+            "Supporter"
+        ],
+        "Position": "Back",
+        "BulletType": "Mystic",
+        "ArmorType": "HeavyArmor",
+        "WeaponType": "HG",
+        "IsLimited": 2
+    },
+    {
+        "Id": 10097,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Name": "モエ（水着）",
+        "School": "SRT",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": [
+            "DamageDealer"
+        ],
+        "Position": "Middle",
+        "BulletType": "Sonic",
+        "ArmorType": "Unarmed",
+        "WeaponType": "HG",
+        "IsLimited": 0
+    },
+    {
+        "Id": 10098,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Name": "ホシノ（臨戦）",
+        "School": "Abydos",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": [
+            "Tanker",
+            "DamageDealer"
+        ],
+        "Position": "Front",
+        "BulletType": "Mystic",
+        "ArmorType": "HeavyArmor",
+        "WeaponType": "SG",
+        "IsLimited": 1
+    },
+    {
+        "Id": 10100,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Name": "シロコ＊テラー",
+        "School": "Abydos",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": [
+            "DamageDealer"
+        ],
+        "Position": "Middle",
+        "BulletType": "Mystic",
+        "ArmorType": "Unarmed",
+        "WeaponType": "AR",
+        "IsLimited": 1
+    },
+    {
+        "Id": 26013,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Name": "アツコ（水着）",
+        "School": "Arius",
+        "StarGrade": 1,
+        "SquadType": "Support",
+        "TacticRole": [
+            "Healer"
+        ],
+        "Position": "Back",
+        "BulletType": "Sonic",
+        "ArmorType": "Unarmed",
+        "WeaponType": "SMG",
+        "IsLimited": 2
+    },
+    {
+        "Id": 10101,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Name": "サオリ（水着）",
+        "School": "Arius",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": [
+            "DamageDealer"
+        ],
+        "Position": "Middle",
+        "BulletType": "Mystic",
+        "ArmorType": "HeavyArmor",
+        "WeaponType": "AR",
+        "IsLimited": 1
+    },
+    {
+        "Id": 10102,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Name": "ヒヨリ（水着）",
+        "School": "Arius",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": [
+            "DamageDealer"
+        ],
+        "Position": "Back",
+        "BulletType": "Pierce",
+        "ArmorType": "HeavyArmor",
+        "WeaponType": "SR",
+        "IsLimited": 1
     }
 ]
