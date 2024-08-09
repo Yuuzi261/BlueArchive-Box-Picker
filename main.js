@@ -249,7 +249,8 @@ function updateButtonVisibility(roles, buttonContainer) {
                     else return allFalse || filter.some((selected, index) => selected && role[category] === index);
                 } else {
                     const allFalse = Object.values(filter).every(selected => !selected);
-                    return allFalse || Object.keys(filter).some(key => filter[key] && role[category] === key);
+                    if (Array.isArray(role[category])) return allFalse || role[category].some(value => filter[value]);
+                    else return allFalse || Object.keys(filter).some(key => filter[key] && role[category] === key);
                 }
             }) && (is_affiliated === AFF.ALL || is_affiliated === (button.classList.contains('active') ? AFF.AFFILIATED : AFF.UNAFFILIATED));
             button.style.display = isVisible ? '' : 'none';
