@@ -147,6 +147,7 @@
     font-size: 14px;
     cursor: pointer;
     width: 100%;
+    transition: background-color 0.3s ease;
 }
 
 .rate-btn:hover {
@@ -164,6 +165,8 @@
     border-radius: 15px;
     padding: 5px 10px;
     font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .btn-secondary {
