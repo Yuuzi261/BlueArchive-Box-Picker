@@ -19,7 +19,6 @@ function handleOrientationChange() {
     setTimeout(() => {
         const angle = screen.orientation.angle;
         const type = screen.orientation.type;
-        console.log(`Orientation: ${type}, Angle: ${angle}`);
         handleSizeChange();
     }, 100);
 }
