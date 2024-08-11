@@ -1,17 +1,3 @@
-let roles = [];
-let state_maps = [];
-let filters = { 
-    SquadType: { Main: false, Support: false },
-    TacticRole: { Tanker: false, DamageDealer: false, Healer: false, Supporter: false, Vehicle: false },
-    StarGrade: [ false, false, false ],
-    IsLimited: [ false, false, false ],
-    BulletType: { Explosion: false, Pierce: false, Mystic: false, Sonic: false },
-    ArmorType: { LightArmor: false, HeavyArmor: false, Unarmed: false, ElasticArmor: false },
-    Position: { Front: false, Middle: false, Back: false },
-    School: { Abydos: false, Arius: false, Gehenna: false, Hyakkiyako: false, Millennium: false, RedWinter: false, Shanhaijing: false, SRT: false, Trinity: false, Valkyrie: false, ETC: false, Tokiwadai: false, Sakugawa: false },
-    WeaponType: { SG: false, SMG: false, AR: false, GL: false, HG: false, RL: false, SR: false, RG: false, MG: false, MT: false, FT: false }
-};
-
 const filtersMap = {
     'filter-main': 'SquadType.Main',
     'filter-support': 'SquadType.Support',
@@ -62,6 +48,22 @@ const filtersMap = {
     'filter-mt': 'WeaponType.MT',
     'filter-ft': 'WeaponType.FT',
 };
+const AFF = {ALL: 0, AFFILIATED: 1, UNAFFILIATED: 2} 
+
+let roles = [];
+let state_maps = [];
+let filters = { 
+    SquadType: { Main: false, Support: false },
+    TacticRole: { Tanker: false, DamageDealer: false, Healer: false, Supporter: false, Vehicle: false },
+    StarGrade: [ false, false, false ],
+    IsLimited: [ false, false, false ],
+    BulletType: { Explosion: false, Pierce: false, Mystic: false, Sonic: false },
+    ArmorType: { LightArmor: false, HeavyArmor: false, Unarmed: false, ElasticArmor: false },
+    Position: { Front: false, Middle: false, Back: false },
+    School: { Abydos: false, Arius: false, Gehenna: false, Hyakkiyako: false, Millennium: false, RedWinter: false, Shanhaijing: false, SRT: false, Trinity: false, Valkyrie: false, ETC: false, Tokiwadai: false, Sakugawa: false },
+    WeaponType: { SG: false, SMG: false, AR: false, GL: false, HG: false, RL: false, SR: false, RG: false, MG: false, MT: false, FT: false }
+};
+let is_affiliated = AFF.ALL;
 
 Promise.all([
     fetch('data/jp/students.json')
@@ -121,6 +123,41 @@ function initializeApp(roles, state_maps) {
         updateURL(roles, state_maps);
         calculatePossessionRate();
     });    
+
+    document.getElementById('filter-clear').addEventListener('click', function() {
+        resetFilters(filters);
+        filter_btns = document.querySelectorAll('.filter');
+        
+        filter_btns.forEach(button => {
+            if (button.classList.contains('btn-primary')) {
+                button.classList.remove('btn-primary');
+                button.classList.add('btn-secondary');
+            }
+        });
+
+        updateButtonVisibility(roles, buttonContainer);
+        calculatePossessionRate();
+    });  
+
+    document.getElementById('filter-affiliated').addEventListener('click', function() {
+        this.classList.toggle('btn-primary');
+        this.classList.toggle('btn-secondary');
+        document.getElementById('filter-unaffiliated').classList.remove('btn-primary');
+        document.getElementById('filter-unaffiliated').classList.add('btn-secondary');
+        updateAffiliation();
+        updateButtonVisibility(roles, buttonContainer);
+        calculatePossessionRate();
+    });
+    
+    document.getElementById('filter-unaffiliated').addEventListener('click', function() {
+        this.classList.toggle('btn-primary');
+        this.classList.toggle('btn-secondary');
+        document.getElementById('filter-affiliated').classList.remove('btn-primary');
+        document.getElementById('filter-affiliated').classList.add('btn-secondary');
+        updateAffiliation();
+        updateButtonVisibility(roles, buttonContainer);
+        calculatePossessionRate();
+    });
 
     updateButtonStates(roles, state_maps, buttonContainer);
     window.onhashchange = () => updateButtonStates(roles, state_maps, buttonContainer);
@@ -212,9 +249,10 @@ function updateButtonVisibility(roles, buttonContainer) {
                     else return allFalse || filter.some((selected, index) => selected && role[category] === index);
                 } else {
                     const allFalse = Object.values(filter).every(selected => !selected);
-                    return allFalse || Object.keys(filter).some(key => filter[key] && role[category] === key);
+                    if (Array.isArray(role[category])) return allFalse || role[category].some(value => filter[value]);
+                    else return allFalse || Object.keys(filter).some(key => filter[key] && role[category] === key);
                 }
-            });
+            }) && (is_affiliated === AFF.ALL || is_affiliated === (button.classList.contains('active') ? AFF.AFFILIATED : AFF.UNAFFILIATED));
             button.style.display = isVisible ? '' : 'none';
         }
     });
@@ -224,14 +262,19 @@ function calculatePossessionRate() {
     const buttons = document.querySelectorAll('.button');
     let possession = 0, total = 0;
 
-    buttons.forEach(button => {
-        if (button.style.display != 'none') {
-            total++;
-            if (button.classList.contains('active')) possession++;
+    document.getElementById('possession-rate').innerText = (() => {
+        if (is_affiliated !== AFF.ALL) return '－.－%';
+        else {
+            buttons.forEach(button => {
+                if (button.style.display != 'none') {
+                    total++;
+                    if (button.classList.contains('active')) possession++;
+                }
+            });
+            return (possession / total * 100).toFixed(2) + '%';
         }
-    });
-
-    document.getElementById('possession-rate').innerText = (possession / total * 100).toFixed(2) + '%';
+    })();
+    
 }
 
 function selectAll(button, bool) {
@@ -246,5 +289,23 @@ function selectAll(button, bool) {
         role.active = bool;
         button.classList.toggle('active', bool);
     }
+}
+
+function resetFilters(obj) {
+    for (let key in obj) {
+        if (typeof obj[key] === 'object' && !Array.isArray(obj[key])) {
+            resetFilters(obj[key]);
+        } else if (Array.isArray(obj[key])) {
+            obj[key] = obj[key].map(value => value === true ? false : value);
+        } else if (obj[key] === true) {
+            obj[key] = false;
+        }
+    }
+}
+
+function updateAffiliation() {
+    if (document.getElementById('filter-affiliated').classList.contains('btn-primary')) is_affiliated = AFF.AFFILIATED;
+    else if (document.getElementById('filter-unaffiliated').classList.contains('btn-primary')) is_affiliated = AFF.UNAFFILIATED;
+    else is_affiliated = AFF.ALL;
 }
 
