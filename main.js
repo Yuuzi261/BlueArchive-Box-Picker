@@ -151,9 +151,9 @@ function initializeApp(roles, state_maps) {
     });  
 
     document.getElementById('filter-affiliated').addEventListener('click', function() {
-        this.classList.toggle('btn-primary');
+        this.classList.toggle('rate-btn-primary');
         this.classList.toggle('btn-secondary');
-        document.getElementById('filter-unaffiliated').classList.remove('btn-primary');
+        document.getElementById('filter-unaffiliated').classList.remove('rate-btn-primary');
         document.getElementById('filter-unaffiliated').classList.add('btn-secondary');
         updateAffiliation();
         updateButtonVisibility(roles, buttonContainer);
@@ -162,9 +162,9 @@ function initializeApp(roles, state_maps) {
     });
     
     document.getElementById('filter-unaffiliated').addEventListener('click', function() {
-        this.classList.toggle('btn-primary');
+        this.classList.toggle('rate-btn-primary');
         this.classList.toggle('btn-secondary');
-        document.getElementById('filter-affiliated').classList.remove('btn-primary');
+        document.getElementById('filter-affiliated').classList.remove('rate-btn-primary');
         document.getElementById('filter-affiliated').classList.add('btn-secondary');
         updateAffiliation();
         updateButtonVisibility(roles, buttonContainer);
@@ -319,8 +319,8 @@ function resetFilters(obj) {
 }
 
 function updateAffiliation() {
-    if (document.getElementById('filter-affiliated').classList.contains('btn-primary')) is_affiliated = AFF.AFFILIATED;
-    else if (document.getElementById('filter-unaffiliated').classList.contains('btn-primary')) is_affiliated = AFF.UNAFFILIATED;
+    if (document.getElementById('filter-affiliated').classList.contains('rate-btn-primary')) is_affiliated = AFF.AFFILIATED;
+    else if (document.getElementById('filter-unaffiliated').classList.contains('rate-btn-primary')) is_affiliated = AFF.UNAFFILIATED;
     else is_affiliated = AFF.ALL;
 }
 
