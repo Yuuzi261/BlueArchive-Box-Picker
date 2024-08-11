@@ -1,3 +1,6 @@
+.btn {
+    font-size: 12px;
+}
 .button {
     width: 100px;
     height: 113px;
@@ -92,25 +95,35 @@
 
 #toggle-button {
     display: none;
-    bottom: 10px;
-    right: 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
     border: none;
     border-radius: 5px;
-    flex: 1 1 100px;
     cursor: pointer;
+    padding: 0;
+  }
+
+#more-vert-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0;
 }
 
-@media only screen and (max-width: 991px) {
-    .button .card-label {
-        height: 22px;
+.material-symbols-outlined {
+    color: white;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
     }
-}
-
-@media (max-width: 550px) {
-    #toggle-button {
-        display: block;
-    }
-}

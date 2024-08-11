@@ -161,6 +161,7 @@ function initializeApp(roles, state_maps) {
 
     updateButtonStates(roles, state_maps, buttonContainer);
     window.onhashchange = () => updateButtonStates(roles, state_maps, buttonContainer);
+    calculatePossessionRate();
 }
 
 function updateButtonStates(roles, state_maps, buttonContainer) {
