@@ -85,6 +85,13 @@ function initializeApp(roles, state_maps) {
     
     buttonContainer.innerHTML = buttonTemplate({ roles });
 
+    function invertImageColor(button, shouldInvert) {
+        const img = button.querySelector('img');
+        if (img) {
+            img.classList.toggle('inverted', shouldInvert);
+        }
+    }
+
     function updateFilterClearVisibility() {
         const anyActiveFilter = Array.from(document.querySelectorAll('.filter')).some(button => 
             button.classList.contains('btn-primary')
@@ -106,6 +113,8 @@ function initializeApp(roles, state_maps) {
             filters[keys[0]][keys[1]] = !filters[keys[0]][keys[1]];
             this.classList.toggle('btn-primary', filters[keys[0]][keys[1]]);
             this.classList.toggle('btn-secondary', !filters[keys[0]][keys[1]]);
+
+            invertImageColor(this, filters[keys[0]][keys[1]])
             updateButtonVisibility(roles, buttonContainer);
             calculatePossessionRate();
             updateFilterClearVisibility();
@@ -143,6 +152,7 @@ function initializeApp(roles, state_maps) {
                 button.classList.remove('btn-primary');
                 button.classList.add('btn-secondary');
             }
+            invertImageColor(button, false);
         });
 
         updateButtonVisibility(roles, buttonContainer);
@@ -158,7 +168,6 @@ function initializeApp(roles, state_maps) {
         updateAffiliation();
         updateButtonVisibility(roles, buttonContainer);
         calculatePossessionRate();
-        updateFilterClearVisibility();
     });
     
     document.getElementById('filter-unaffiliated').addEventListener('click', function() {
@@ -169,7 +178,6 @@ function initializeApp(roles, state_maps) {
         updateAffiliation();
         updateButtonVisibility(roles, buttonContainer);
         calculatePossessionRate();
-        updateFilterClearVisibility();
     });
 
     updateButtonStates(roles, state_maps, buttonContainer);
