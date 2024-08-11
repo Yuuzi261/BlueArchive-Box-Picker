@@ -36,7 +36,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    padding: 0 10px
+    padding: 0 0 0 10px
 }
 
 .header-title {
@@ -57,6 +57,7 @@ header {
 .header-more-vert {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .horizontal-container {
@@ -193,6 +194,16 @@ aside {
 
 .force-overflow {
     min-height: 450px;
+}
+
+#settings-dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgba(33, 37, 41, .578);
+    right: 0;
+    z-index: 1000;
+    padding: 10px;
+    border-radius: 0 0 0 5px;
 }
 
 /* footer {
