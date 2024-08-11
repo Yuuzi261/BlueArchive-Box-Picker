@@ -119,6 +119,19 @@
     padding: 0;
 }
 
+#filter-clear {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0;
+}
+
 .material-symbols-outlined {
     color: white;
     font-variation-settings:
