@@ -3,14 +3,10 @@
 <head lang="ja">
     <title>BA Box Checker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS -->
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles\button.css">
     <link rel="stylesheet" type="text/css" href="styles\layout.css">
-    <link rel="stylesheet" type="text/css" href="styles\rwd.css">
-
-    <!-- Google Material -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <!-- Noto Sans JP -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,54 +21,33 @@
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
 </head>
 
-<body class="bg-dark text-white"> 
+<body class="bg-dark text-white" > 
     <div class="bg_container">
         <div class="bg_img bg_img_1 fade-in"></div>
         <div class="bg_img bg_img_2 fade-out"></div>
     </div>
     <script src="./js/backgroundRotator.js"></script>
     <header style="user-select: none;">
-        <div class="header-content">
-            <div class="header-filter">
-                <button id="toggle-button">
-                    <span class="material-symbols-outlined">
-                        filter_list
-                    </span>
-                </button>
-            </div>
-            <div class="header-title">BlueArchive Box</div>
-            <div class="header-more-vert">
-                <button id="more-vert-button">
-                    <span class="material-symbols-outlined">
-                        more_vert
-                    </span>
-                </button>
-            </div>
-        </div>
+        HEADER
     </header>
     <div class="main">
+        <button id="toggle-button" class="hidden">顯示左側欄</button>
         <aside class="left">
-            <div class="rate-container">
-                <div class="horizontal-container" style="user-select: none;">
-                    <div style="display: flex;">
+            <div class="scrollbar" id="scrollbar-style-1" style="height: 90vh;">
+                <div style="padding: 1vh; user-select: none;">
+                    <div>
                         <h5>所持率</h5>
-                        <h5 id="possession-rate">0.00%</h5>
+                        <h6 id="possession-rate">0.00%<h6>
                     </div>
                     <div>
                         <button id="select-all" class="btn btn-secondary" type="button">全て選択する</button>
                         <button id="deselect-all" class="btn btn-secondary" type="button">全て選択解除する</button>
                     </div>
-                </div>
-            </div>
-            <div class="sidebar">
-                <div style="padding: 10px; flex: 1 1 auto; user-select: none;" id="scrollbar-style-1">
-                    <h5>役割</h5>
                     <div>
                         <div style="display: flex;"><h5>役割</h5><button id="filter-clear" class="btn btn-secondary">フィルターをすべて解除</button></div>
                         <button id="filter-main" class="btn btn-secondary filter" type="button">STRIKER</button>
                         <button id="filter-support" class="btn btn-secondary filter" type="button">SPECIAL</button>
                     </div>
-                    <h5>クラス</h5>
                     <div>
                         <h5>クラス</h5>
                         <button id="filter-tanker" class="btn btn-secondary filter" type="button">タンク</button>
@@ -81,7 +56,6 @@
                         <button id="filter-supporter" class="btn btn-secondary filter" type="button">サポーター</button>
                         <button id="filter-vehicle" class="btn btn-secondary filter" type="button">T.S</button>
                     </div>
-                    <h5>レア度 / 入手機会</h5>
                     <div>
                         <h5>レア度 / 入手機会</h5>
                         <button id="filter-star-grade-3" class="btn btn-secondary filter" type="button">★★★</button>
@@ -91,7 +65,6 @@
                         <button id="filter-is-limited-2" class="btn btn-secondary filter" type="button">イベント報酬</button>
                         <button id="filter-is-limited-0" class="btn btn-secondary filter" type="button">恒常</button>
                     </div>
-                    <h5>攻撃タイプ</h5>
                     <div>
                         <h5>攻撃タイプ</h5>
                         <button id="filter-explosion" class="btn btn-secondary filter" type="button">爆発</button>
@@ -99,7 +72,6 @@
                         <button id="filter-mystic" class="btn btn-secondary filter" type="button">神秘</button>
                         <button id="filter-sonic" class="btn btn-secondary filter" type="button">振動</button>
                     </div>
-                    <h5>防御タイプ</h5>
                     <div>
                         <h5>防御タイプ</h5>
                         <button id="filter-light-armor" class="btn btn-secondary filter" type="button">軽装備</button>
@@ -107,14 +79,12 @@
                         <button id="filter-unarmored" class="btn btn-secondary filter" type="button">特殊装甲</button>
                         <button id="filter-elastic-armor" class="btn btn-secondary filter" type="button">弾力装甲</button>
                     </div>
-                    <h5>ポジション</h5>
                     <div>
                         <h5>ポジション</h5>
                         <button id="filter-front" class="btn btn-secondary filter" type="button">FRONT</button>
                         <button id="filter-middle" class="btn btn-secondary filter" type="button">MIDDLE</button>
                         <button id="filter-back" class="btn btn-secondary filter" type="button">BACK</button>
                     </div>
-                    <h5>学園</h5>
                     <div>
                         <h5>学園</h5>
                         <button id="filter-abydos" class="btn btn-secondary filter" type="button">アビドス</button>
@@ -131,7 +101,6 @@
                         <button id="filter-tokiwadai" class="btn btn-secondary filter" type="button">常盤台中学</button>
                         <button id="filter-sakugawa" class="btn btn-secondary filter" type="button">柵川中学</button>
                     </div>
-                    <h5>武器種</h5>
                     <div>
                         <h5>武器種</h5>
                         <button id="filter-sg" class="btn btn-secondary filter" type="button">SG</button>
@@ -156,7 +125,7 @@
         </aside>
         <main>
             <script src="./js/font.js"></script>
-            <div class="button-container-scrollbar" id="scrollbar-style-1">
+            <div class="scrollbar" id="scrollbar-style-1">
                 <div id="button-container"></div>
             </div>
             <script id="button-template" type="text/x-handlebars-template">
@@ -178,7 +147,5 @@
 
     <script src="main.js"></script>
     <script src="./js/toggleSidebar.js"></script>
-    <script src="./js/updateButtonContainerHeight.js"></script>
-    <script src="./js/updateSidebarContainerHeight.js"></script>
 </body>
 </html>
