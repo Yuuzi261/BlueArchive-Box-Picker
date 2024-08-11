@@ -187,6 +187,10 @@ aside {
     padding-bottom: 5px;
 }
 
+.group-filter {
+    margin: 0 10px 0 10px;
+}
+
 #scrollbar-style-1::-webkit-scrollbar {
     width: 2px;
 }
