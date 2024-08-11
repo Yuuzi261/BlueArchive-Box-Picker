@@ -175,6 +175,12 @@
     background-color: rgba(255, 255, 255, 0.825);
 }
 
+#filter-tanker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .invert-light {
     transition: filter 0.3s ease;
 }
@@ -221,10 +227,4 @@
 
 #filter-elastic-armor {
     color: rgb(228, 37, 228);
-}
-
-#filter-tanker {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
