@@ -81,7 +81,16 @@ Promise.all([
 function initializeApp(roles, state_maps) {
     const buttonTemplate = Handlebars.compile(document.getElementById('button-template').innerHTML);
     const buttonContainer = document.getElementById('button-container');
+    const filterClearButton = document.getElementById('filter-clear');
+    
     buttonContainer.innerHTML = buttonTemplate({ roles });
+
+    function updateFilterClearVisibility() {
+        const anyActiveFilter = Array.from(document.querySelectorAll('.filter')).some(button => 
+            button.classList.contains('btn-primary')
+        );
+        filterClearButton.style.display = anyActiveFilter ? 'flex' : 'none';
+    }
 
     buttonContainer.addEventListener('click', function(event) {
         if (event.target.classList.contains('button')) {
@@ -99,6 +108,7 @@ function initializeApp(roles, state_maps) {
             this.classList.toggle('btn-secondary', !filters[keys[0]][keys[1]]);
             updateButtonVisibility(roles, buttonContainer);
             calculatePossessionRate();
+            updateFilterClearVisibility();
         });
     });
 
@@ -124,7 +134,7 @@ function initializeApp(roles, state_maps) {
         calculatePossessionRate();
     });    
 
-    document.getElementById('filter-clear').addEventListener('click', function() {
+    filterClearButton.addEventListener('click', function() {
         resetFilters(filters);
         filter_btns = document.querySelectorAll('.filter');
         
@@ -137,6 +147,7 @@ function initializeApp(roles, state_maps) {
 
         updateButtonVisibility(roles, buttonContainer);
         calculatePossessionRate();
+        updateFilterClearVisibility();
     });  
 
     document.getElementById('filter-affiliated').addEventListener('click', function() {
@@ -147,6 +158,7 @@ function initializeApp(roles, state_maps) {
         updateAffiliation();
         updateButtonVisibility(roles, buttonContainer);
         calculatePossessionRate();
+        updateFilterClearVisibility();
     });
     
     document.getElementById('filter-unaffiliated').addEventListener('click', function() {
@@ -157,12 +169,15 @@ function initializeApp(roles, state_maps) {
         updateAffiliation();
         updateButtonVisibility(roles, buttonContainer);
         calculatePossessionRate();
+        updateFilterClearVisibility();
     });
 
     updateButtonStates(roles, state_maps, buttonContainer);
     window.onhashchange = () => updateButtonStates(roles, state_maps, buttonContainer);
     calculatePossessionRate();
+    updateFilterClearVisibility();
 }
+
 
 function updateButtonStates(roles, state_maps, buttonContainer) {
     const hash = window.location.hash.substring(1);
@@ -181,7 +196,6 @@ function updateButtonStates(roles, state_maps, buttonContainer) {
             }
         }
     });
-
     updateButtonVisibility(roles, buttonContainer);
 }
 
