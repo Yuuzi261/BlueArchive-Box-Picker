@@ -171,5 +171,60 @@
 }
 
 .btn-primary {
-    background-color: rgba(131, 123, 123, 0.6);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.825);
+}
+
+.invert-light {
+    transition: filter 0.3s ease;
+}
+
+.inverted {
+    filter: invert(100%);
+}
+
+#filter-main {
+    color: red;
+}
+
+#filter-support {
+    color: rgb(57, 106, 197);
+}
+
+#filter-explosion {
+    color: red;
+}
+
+#filter-pierce {
+    color: orange;
+}
+
+#filter-mystic {
+    color: rgb(78, 165, 231);
+}
+
+#filter-sonic {
+    color: rgb(228, 37, 228);
+}
+
+#filter-light-armor {
+    color: red;
+}
+
+#filter-heavy-armor {
+    color: orange;
+}
+
+#filter-unarmored {
+    color: rgb(78, 165, 231);
+}
+
+#filter-elastic-armor {
+    color: rgb(228, 37, 228);
+}
+
+#filter-tanker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
