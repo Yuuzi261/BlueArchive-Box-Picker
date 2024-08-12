@@ -214,6 +214,13 @@
     font-weight: 700;
 }
 
+.svg-star {
+    display: inline-block;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
 .filter {
     display: flex;
     align-items: center;
