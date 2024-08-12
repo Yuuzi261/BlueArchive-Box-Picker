@@ -181,11 +181,18 @@
 }
 
 .label {
+    padding: 0 8px;
+}
+
+.nexon-font-label {
     display: inline-block;
     width: 100%;
     text-align: center;
     line-height: 2.3;
     padding: 0 8px;
+    font-family: NEXON Football Gothic;
+    font-style: italic;
+    font-weight: 700;
 }
 
 #filter-tanker {
