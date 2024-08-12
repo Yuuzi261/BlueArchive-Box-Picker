@@ -21,6 +21,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <!-- Nunito Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
     <!-- NEXON Football Gothic -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/NEXONFootballGothic/NEXONFootballGothic.css" type="text/css">
 
@@ -88,19 +93,56 @@
                     <h5>クラス</h5>
                     <div class="group-filter">
                         <button id="filter-tanker" class="btn btn-secondary filter" type="button">
-                            <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp">
-                            <span>タンク</span>
+                            <span class="icon-label">
+                                <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp">
+                                <span>タンク</span>
+                            </span>
                         </button>
-                        <button id="filter-damage-dealer" class="btn btn-secondary filter" type="button">アタッカー</button>
-                        <button id="filter-healer" class="btn btn-secondary filter" type="button">ヒーラー</button>
-                        <button id="filter-supporter" class="btn btn-secondary filter" type="button">サポーター</button>
-                        <button id="filter-vehicle" class="btn btn-secondary filter" type="button">T.S</button>
+                        <button id="filter-damage-dealer" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>アタッカー</span>
+                            </span>
+                        </button>
+                        <button id="filter-healer" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>ヒーラー</span>
+                            </span>
+                        </button>
+                        <button id="filter-supporter" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>サポーター</span>
+                            </span>
+                        </button>
+                        <button id="filter-vehicle" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>T.S</span>
+                            </span>
+                        </button>
                     </div>
                     <h5>レア度 / 入手機会</h5>
                     <div class="group-filter">
-                        <button id="filter-star-grade-3" class="btn btn-secondary filter" type="button"><span class="label">★★★</span></button>
-                        <button id="filter-star-grade-2" class="btn btn-secondary filter" type="button"><span class="label">★★</span></button>
-                        <button id="filter-star-grade-1" class="btn btn-secondary filter" type="button"><span class="label">★</span></button>
+                        <button id="filter-star-grade-3" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>★★★</span>
+                            </span>
+                        </button>
+                        <button id="filter-star-grade-2" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>★★</span>
+                            </span>
+                        </button>
+                        <button id="filter-star-grade-1" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>★</span>
+                            </span>
+                        </button>
                         <button id="filter-is-limited-1" class="btn btn-secondary filter" type="button"><span class="label">限定</span></button>
                         <button id="filter-is-limited-2" class="btn btn-secondary filter" type="button"><span class="label">イベント報酬</span></button>
                         <button id="filter-is-limited-0" class="btn btn-secondary filter" type="button"><span class="label">恒常</span></button>
@@ -127,19 +169,84 @@
                     </div>
                     <h5>学園</h5>
                     <div class="group-filter">
-                        <button id="filter-abydos" class="btn btn-secondary filter" type="button">アビドス</button>
-                        <button id="filter-arius" class="btn btn-secondary filter" type="button">アリウス</button>
-                        <button id="filter-gehenna" class="btn btn-secondary filter" type="button">ゲヘナ</button>
-                        <button id="filter-hyakkiyako" class="btn btn-secondary filter" type="button">百鬼夜行</button>
-                        <button id="filter-millennium" class="btn btn-secondary filter" type="button">ミレニアム</button>
-                        <button id="filter-red-winter" class="btn btn-secondary filter" type="button">レッドウィンター</button>
-                        <button id="filter-shanhaijing" class="btn btn-secondary filter" type="button">山海経</button>
-                        <button id="filter-srt" class="btn btn-secondary filter" type="button">SRT</button>
-                        <button id="filter-trinity" class="btn btn-secondary filter" type="button">トリニティ</button>
-                        <button id="filter-valkyrie" class="btn btn-secondary filter" type="button">ヴァルキューレ</button>
-                        <button id="filter-etc" class="btn btn-secondary filter" type="button">その他</button>
-                        <button id="filter-tokiwadai" class="btn btn-secondary filter" type="button">常盤台中学</button>
-                        <button id="filter-sakugawa" class="btn btn-secondary filter" type="button">柵川中学</button>
+                        <button id="filter-abydos" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>アビドス</span>
+                            </span>
+                        </button>
+                        <button id="filter-arius" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>アリウス</span>
+                            </span>
+                        </button>
+                        <button id="filter-gehenna" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>ゲヘナ</span>
+                            </span>
+                        </button>
+                        <button id="filter-hyakkiyako" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>百鬼夜行</span>
+                            </span>
+                        </button>
+                        <button id="filter-millennium" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>ミレニアム</span>
+                            </span>
+                        </button>
+                        <button id="filter-red-winter" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>レッドウィンター</span>
+                            </span>
+                        </button>
+                        <button id="filter-shanhaijing" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>山海経</span>
+                            </span>
+                        </button>
+                        <button id="filter-srt" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>SRT</span>
+                            </span>
+                        </button>
+                        <button id="filter-trinity" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>トリニティ</span>
+                            </span>
+                        </button>
+                        <button id="filter-valkyrie" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>ヴァルキューレ</span>
+                            </span>
+                        </button>
+                        <button id="filter-etc" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>その他</span>
+                            </span>
+                        </button>
+                        <button id="filter-tokiwadai" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>常盤台中学</span>
+                            </span>
+                        </button>
+                        <button id="filter-sakugawa" class="btn btn-secondary filter" type="button">
+                            <span class="icon-label">
+                                <!-- <img id="filter-image" class="invert-light" width="26" height="26" src="images/filter-icon/tanker.webp"> -->
+                                <span>柵川中学</span>
+                            </span>
+                        </button>
                     </div>
                     <h5>武器種</h5>
                     <div class="group-filter">

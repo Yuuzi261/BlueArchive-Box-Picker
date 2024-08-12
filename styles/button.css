@@ -145,6 +145,7 @@
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 14px;
+    font-weight: 600;
     cursor: pointer;
     width: 100%;
     transition: background-color 0.3s ease;
@@ -182,6 +183,24 @@
 
 .label {
     padding: 0 8px;
+    font-family: Nunito Sans, Noto Sans, Noto Sans JP, sans-serif;
+    font-weight: 600;
+}
+
+.icon-label {
+    font-family: Nunito Sans, Noto Sans, Noto Sans JP, sans-serif;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    padding: 0 8px;
+}
+
+.icon-label span {
+    display: inline-block;
+    text-align: center;
+    line-height: 1.65;
+    height: 26px;
+    font-weight: 600;
 }
 
 .nexon-font-label {
