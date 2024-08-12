@@ -49,10 +49,10 @@ const filtersMap = {
     'filter-ft': 'WeaponType.FT',
 };
 const AFF = {ALL: 0, AFFILIATED: 1, UNAFFILIATED: 2} 
-const SERVER = { Japan: false, Global: false, Chinese: false };
 
 let roles = [];
 let state_maps = [];
+let selected_server = [false, false, false];
 let filters = { 
     SquadType: { Main: false, Support: false },
     TacticRole: { Tanker: false, DamageDealer: false, Healer: false, Supporter: false, Vehicle: false },
@@ -107,6 +107,14 @@ function initializeApp(roles, state_maps) {
             calculatePossessionRate();
         }
     });
+
+    document.getElementById('server-select').querySelector('select').addEventListener('change', function(event) {
+        const selectedValue = event.target.value;
+        selected_server.fill(false);
+        selected_server[selectedValue] = true;
+        updateButtonVisibility(roles, buttonContainer);
+        calculatePossessionRate();
+    });    
 
     Object.keys(filtersMap).forEach(id => {
         document.getElementById(id).addEventListener('click', function() {
@@ -266,7 +274,7 @@ function updateButtonVisibility(roles, buttonContainer) {
     roles.forEach(role => {
         const button = buttonContainer.querySelector(`[data-role-id="${role.Id}"]`);
         if (button) {
-            const isVisible = role.IsReleased[SERVER.Global ? 1 : SERVER.Chinese ? 2 : 0] &&
+            const isVisible = role.IsReleased[selected_server[1] ? 1 : selected_server[2] ? 2 : 0] &&
             Object.keys(filters).every(category => {
                 const filter = filters[category];
                 if (Array.isArray(filter)) {
