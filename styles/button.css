@@ -214,7 +214,7 @@
     font-weight: 700;
 }
 
-#filter-tanker {
+.filter {
     display: flex;
     align-items: center;
     justify-content: center;
