@@ -6,6 +6,7 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="styles\button.css">
     <link rel="stylesheet" type="text/css" href="styles\layout.css">
+    <link rel="stylesheet" type="text/css" href="styles\selectbox.css">
     <link rel="stylesheet" type="text/css" href="styles\rwd.css">
 
     <!-- Google Material -->
@@ -55,7 +56,16 @@
                     </span>
                 </button>
                 <div id="settings-dropdown-menu">
-                    MENU
+                    <div class="selection-row">
+                        <span>伺服器</span>
+                        <div id="server-select" class="custom-select">
+                            <select>
+                                <option value="0">日服</option>
+                                <option value="1">國際服</option>
+                                <option value="2">簡中服</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
