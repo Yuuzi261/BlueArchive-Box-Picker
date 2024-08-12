@@ -205,6 +205,7 @@ function updateButtonStates(roles, state_maps, buttonContainer) {
         }
     });
     updateButtonVisibility(roles, buttonContainer);
+    calculatePossessionRate();
 }
 
 function toggleButton(button, roleId, roles, state_maps) {
