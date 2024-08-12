@@ -6,7 +6,7 @@ function updateSidebarContainerHeight() {
 }
 
 function handleResize() {
-    const mediaQuery = window.matchMedia('(max-width: 992px)');
+    const mediaQuery = window.matchMedia('(max-width: 1024px)');
     if (mediaQuery.matches) {
         updateSidebarContainerHeight();
     } else {

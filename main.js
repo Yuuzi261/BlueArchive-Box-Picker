@@ -81,7 +81,23 @@ Promise.all([
 function initializeApp(roles, state_maps) {
     const buttonTemplate = Handlebars.compile(document.getElementById('button-template').innerHTML);
     const buttonContainer = document.getElementById('button-container');
+    const filterClearButton = document.getElementById('filter-clear');
+    
     buttonContainer.innerHTML = buttonTemplate({ roles });
+
+    function invertImageColor(button, shouldInvert) {
+        const img = button.querySelector('img');
+        if (img && img.classList.contains('invert-light')) {
+            img.classList.toggle('inverted', shouldInvert);
+        }
+    }
+
+    function updateFilterClearVisibility() {
+        const anyActiveFilter = Array.from(document.querySelectorAll('.filter')).some(button => 
+            button.classList.contains('btn-primary')
+        );
+        filterClearButton.style.display = anyActiveFilter ? 'flex' : 'none';
+    }
 
     buttonContainer.addEventListener('click', function(event) {
         if (event.target.classList.contains('button')) {
@@ -97,8 +113,11 @@ function initializeApp(roles, state_maps) {
             filters[keys[0]][keys[1]] = !filters[keys[0]][keys[1]];
             this.classList.toggle('btn-primary', filters[keys[0]][keys[1]]);
             this.classList.toggle('btn-secondary', !filters[keys[0]][keys[1]]);
+
+            invertImageColor(this, filters[keys[0]][keys[1]])
             updateButtonVisibility(roles, buttonContainer);
             calculatePossessionRate();
+            updateFilterClearVisibility();
         });
     });
 
@@ -124,7 +143,7 @@ function initializeApp(roles, state_maps) {
         calculatePossessionRate();
     });    
 
-    document.getElementById('filter-clear').addEventListener('click', function() {
+    filterClearButton.addEventListener('click', function() {
         resetFilters(filters);
         filter_btns = document.querySelectorAll('.filter');
         
@@ -133,16 +152,18 @@ function initializeApp(roles, state_maps) {
                 button.classList.remove('btn-primary');
                 button.classList.add('btn-secondary');
             }
+            invertImageColor(button, false);
         });
 
         updateButtonVisibility(roles, buttonContainer);
         calculatePossessionRate();
+        updateFilterClearVisibility();
     });  
 
     document.getElementById('filter-affiliated').addEventListener('click', function() {
-        this.classList.toggle('btn-primary');
+        this.classList.toggle('rate-btn-primary');
         this.classList.toggle('btn-secondary');
-        document.getElementById('filter-unaffiliated').classList.remove('btn-primary');
+        document.getElementById('filter-unaffiliated').classList.remove('rate-btn-primary');
         document.getElementById('filter-unaffiliated').classList.add('btn-secondary');
         updateAffiliation();
         updateButtonVisibility(roles, buttonContainer);
@@ -150,9 +171,9 @@ function initializeApp(roles, state_maps) {
     });
     
     document.getElementById('filter-unaffiliated').addEventListener('click', function() {
-        this.classList.toggle('btn-primary');
+        this.classList.toggle('rate-btn-primary');
         this.classList.toggle('btn-secondary');
-        document.getElementById('filter-affiliated').classList.remove('btn-primary');
+        document.getElementById('filter-affiliated').classList.remove('rate-btn-primary');
         document.getElementById('filter-affiliated').classList.add('btn-secondary');
         updateAffiliation();
         updateButtonVisibility(roles, buttonContainer);
@@ -162,7 +183,9 @@ function initializeApp(roles, state_maps) {
     updateButtonStates(roles, state_maps, buttonContainer);
     window.onhashchange = () => updateButtonStates(roles, state_maps, buttonContainer);
     calculatePossessionRate();
+    updateFilterClearVisibility();
 }
+
 
 function updateButtonStates(roles, state_maps, buttonContainer) {
     const hash = window.location.hash.substring(1);
@@ -181,8 +204,8 @@ function updateButtonStates(roles, state_maps, buttonContainer) {
             }
         }
     });
-
     updateButtonVisibility(roles, buttonContainer);
+    calculatePossessionRate();
 }
 
 function toggleButton(button, roleId, roles, state_maps) {
@@ -305,8 +328,8 @@ function resetFilters(obj) {
 }
 
 function updateAffiliation() {
-    if (document.getElementById('filter-affiliated').classList.contains('btn-primary')) is_affiliated = AFF.AFFILIATED;
-    else if (document.getElementById('filter-unaffiliated').classList.contains('btn-primary')) is_affiliated = AFF.UNAFFILIATED;
+    if (document.getElementById('filter-affiliated').classList.contains('rate-btn-primary')) is_affiliated = AFF.AFFILIATED;
+    else if (document.getElementById('filter-unaffiliated').classList.contains('rate-btn-primary')) is_affiliated = AFF.UNAFFILIATED;
     else is_affiliated = AFF.ALL;
 }
 

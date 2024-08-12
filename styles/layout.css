@@ -4,14 +4,18 @@
 
 h5 {
     text-align: left;
+    margin: 10px;
 }
 
 body {
     font-family: "Noto Sans", "Noto Sans JP", sans-serif;
     text-align: center;
+    color: white;
+    background-color: black;
     font-size: 24px;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 main {
@@ -36,7 +40,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    padding: 0 10px
+    padding: 0 0 0 10px
 }
 
 .header-title {
@@ -57,6 +61,7 @@ header {
 .header-more-vert {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .horizontal-container {
@@ -151,6 +156,11 @@ aside {
     padding: 10px;
 }
 
+.rate-btn-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
 
 .sidebar {
     background-color: rgba(33, 37, 41, .578);
@@ -173,8 +183,12 @@ aside {
 .sidebar > div > div {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    padding-bottom: 2dvh;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+
+.group-filter {
+    margin: 0 10px 0 10px;
 }
 
 #scrollbar-style-1::-webkit-scrollbar {
@@ -193,6 +207,16 @@ aside {
 
 .force-overflow {
     min-height: 450px;
+}
+
+#settings-dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgba(33, 37, 41, .578);
+    right: 0;
+    z-index: 1000;
+    padding: 10px;
+    border-radius: 0 0 0 5px;
 }
 
 /* footer {

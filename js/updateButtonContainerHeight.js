@@ -7,7 +7,7 @@ function updateButtonContainerHeight() {
 }
 
 function handleSizeChange() {
-    const mediaQuery = window.matchMedia('(max-width: 992px)');
+    const mediaQuery = window.matchMedia('(max-width: 1024px)');
     if (mediaQuery.matches) {
         updateButtonContainerHeight();
     } else {
