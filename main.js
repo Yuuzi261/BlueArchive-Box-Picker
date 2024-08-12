@@ -87,7 +87,7 @@ function initializeApp(roles, state_maps) {
 
     function invertImageColor(button, shouldInvert) {
         const img = button.querySelector('img');
-        if (img) {
+        if (img && img.classList.contains('invert-light')) {
             img.classList.toggle('inverted', shouldInvert);
         }
     }
