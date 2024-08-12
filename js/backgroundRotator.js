@@ -1,9 +1,8 @@
 const backgrounds = [
-    "/images/background/BG_MainOffice_Night.jpg",
-    "/images/background/BG_MainOffice_Night2.jpg",
-    "/images/background/BG_MainOffice_Table.png",
-    "/images/background/BG_MainOffice_Table2.png",
-    "/images/background/BG_MainOffice_Table3.png"
+    "/images/background/BG_MainOffice_Night.webp",
+    "/images/background/BG_MainOffice_Table.webp",
+    "/images/background/BG_MainOffice_Table2.webp",
+    "/images/background/BG_MainOffice_Table3.webp"
 ];
 
 const bgImg1 = document.querySelector('.bg_img_1');
