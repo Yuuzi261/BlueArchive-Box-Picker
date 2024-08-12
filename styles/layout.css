@@ -140,7 +140,7 @@ aside {
     /* display: flex; */
     margin: 0 0 1dvh 0;
     padding: 0;
-    height: 20dvh;
+    /* height: 20dvh; */
     border-radius: 5px;
     overflow-y: hidden;
 }
