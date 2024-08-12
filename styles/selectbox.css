@@ -1,0 +1,22 @@
+.selection-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    gap: 50px;
+}
+
+.selection-row span {
+    font-size: 18px;
+}
+
+.custom-select {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.custom-select select {
+    font-size: 18px;
+}
