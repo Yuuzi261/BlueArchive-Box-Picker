@@ -183,7 +183,7 @@ aside {
 .sidebar > div > div {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
     padding-bottom: 5px;
 }
 
