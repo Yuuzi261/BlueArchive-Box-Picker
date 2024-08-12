@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var toggleButton = document.getElementById('toggle-button');
 
     function updateSidebarVisibility() {
-        if (window.innerWidth >= 1000) {
+        if (window.innerWidth >= 1025) {
             leftSidebar.style.display = 'block';
             leftSidebar.style.maxHeight = 'none';
             showMainAndRate(false);
@@ -33,14 +33,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     toggleButton.addEventListener('click', function() {
-        if (window.innerWidth < 1000) {
+        if (window.innerWidth <= 1024) {
             if (leftSidebar.style.display === 'none') {
                 mainContent.style.display = 'none';
                 rateContainer.style.display = 'none';
                 leftSidebar.style.display = 'block';
                 leftSidebar.style.maxHeight = '0px';
                 setTimeout(function() {
-                    leftSidebar.style.maxHeight = '120dvh';
+                    leftSidebar.style.maxHeight = '100vh';
                 }, 10);
             } else {
                 leftSidebar.style.maxHeight = '0px';
