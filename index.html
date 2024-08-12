@@ -21,6 +21,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <!-- NEXON Football Gothic -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/NEXONFootballGothic/NEXONFootballGothic.css" type="text/css">
+
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
 </head>
 
@@ -79,8 +82,8 @@
                         </button>
                     </div>
                     <div class="group-filter">
-                        <button id="filter-main" class="btn btn-secondary filter" type="button">STRIKER</button>
-                        <button id="filter-support" class="btn btn-secondary filter" type="button">SPECIAL</button>
+                        <button id="filter-main" class="btn btn-secondary filter font-nexon" type="button"><span class="label">STRIKER</span></button>
+                        <button id="filter-support" class="btn btn-secondary filter font-nexon" type="button"><span class="label">SPECIAL</span></button>
                     </div>
                     <h5>クラス</h5>
                     <div class="group-filter">
@@ -95,32 +98,32 @@
                     </div>
                     <h5>レア度 / 入手機会</h5>
                     <div class="group-filter">
-                        <button id="filter-star-grade-3" class="btn btn-secondary filter" type="button">★★★</button>
-                        <button id="filter-star-grade-2" class="btn btn-secondary filter" type="button">★★</button>
-                        <button id="filter-star-grade-1" class="btn btn-secondary filter" type="button">★</button>
-                        <button id="filter-is-limited-1" class="btn btn-secondary filter" type="button">限定</button>
-                        <button id="filter-is-limited-2" class="btn btn-secondary filter" type="button">イベント報酬</button>
-                        <button id="filter-is-limited-0" class="btn btn-secondary filter" type="button">恒常</button>
+                        <button id="filter-star-grade-3" class="btn btn-secondary filter" type="button"><span class="label">★★★</span></button>
+                        <button id="filter-star-grade-2" class="btn btn-secondary filter" type="button"><span class="label">★★</span></button>
+                        <button id="filter-star-grade-1" class="btn btn-secondary filter" type="button"><span class="label">★</span></button>
+                        <button id="filter-is-limited-1" class="btn btn-secondary filter" type="button"><span class="label">限定</span></button>
+                        <button id="filter-is-limited-2" class="btn btn-secondary filter" type="button"><span class="label">イベント報酬</span></button>
+                        <button id="filter-is-limited-0" class="btn btn-secondary filter" type="button"><span class="label">恒常</span></button>
                     </div>
                     <h5>攻撃タイプ</h5>
                     <div class="group-filter">
-                        <button id="filter-explosion" class="btn btn-secondary filter" type="button">爆発</button>
-                        <button id="filter-pierce" class="btn btn-secondary filter" type="button">貫通</button>
-                        <button id="filter-mystic" class="btn btn-secondary filter" type="button">神秘</button>
-                        <button id="filter-sonic" class="btn btn-secondary filter" type="button">振動</button>
+                        <button id="filter-explosion" class="btn btn-secondary filter" type="button"><span class="label">爆発</span></button>
+                        <button id="filter-pierce" class="btn btn-secondary filter" type="button"><span class="label">貫通</span></button>
+                        <button id="filter-mystic" class="btn btn-secondary filter" type="button"><span class="label">神秘</span></button>
+                        <button id="filter-sonic" class="btn btn-secondary filter" type="button"><span class="label">振動</span></button>
                     </div>
                     <h5>防御タイプ</h5>
                     <div class="group-filter">
-                        <button id="filter-light-armor" class="btn btn-secondary filter" type="button">軽装備</button>
-                        <button id="filter-heavy-armor" class="btn btn-secondary filter" type="button">重装甲</button>
-                        <button id="filter-unarmored" class="btn btn-secondary filter" type="button">特殊装甲</button>
-                        <button id="filter-elastic-armor" class="btn btn-secondary filter" type="button">弾力装甲</button>
+                        <button id="filter-light-armor" class="btn btn-secondary filter" type="button"><span class="label">軽装備</span></button>
+                        <button id="filter-heavy-armor" class="btn btn-secondary filter" type="button"><span class="label">重装甲</span></button>
+                        <button id="filter-unarmored" class="btn btn-secondary filter" type="button"><span class="label">特殊装甲</span></button>
+                        <button id="filter-elastic-armor" class="btn btn-secondary filter" type="button"><span class="label">弾力装甲</span></button>
                     </div>
                     <h5>ポジション</h5>
                     <div class="group-filter">
-                        <button id="filter-front" class="btn btn-secondary filter" type="button">FRONT</button>
-                        <button id="filter-middle" class="btn btn-secondary filter" type="button">MIDDLE</button>
-                        <button id="filter-back" class="btn btn-secondary filter" type="button">BACK</button>
+                        <button id="filter-front" class="btn btn-secondary filter font-nexon" type="button"><span class="label">FRONT</span></button>
+                        <button id="filter-middle" class="btn btn-secondary filter font-nexon" type="button"><span class="label">MIDDLE</span></button>
+                        <button id="filter-back" class="btn btn-secondary filter font-nexon" type="button"><span class="label">BACK</span></button>
                     </div>
                     <h5>学園</h5>
                     <div class="group-filter">
@@ -140,17 +143,17 @@
                     </div>
                     <h5>武器種</h5>
                     <div class="group-filter">
-                        <button id="filter-sg" class="btn btn-secondary filter" type="button">SG</button>
-                        <button id="filter-smg" class="btn btn-secondary filter" type="button">SMG</button>
-                        <button id="filter-ar" class="btn btn-secondary filter" type="button">AR</button>
-                        <button id="filter-gl" class="btn btn-secondary filter" type="button">GL</button>
-                        <button id="filter-hg" class="btn btn-secondary filter" type="button">HG</button>
-                        <button id="filter-rl" class="btn btn-secondary filter" type="button">RL</button>
-                        <button id="filter-sr" class="btn btn-secondary filter" type="button">SR</button>
-                        <button id="filter-rg" class="btn btn-secondary filter" type="button">RG</button>
-                        <button id="filter-mg" class="btn btn-secondary filter" type="button">MG</button>
-                        <button id="filter-mt" class="btn btn-secondary filter" type="button">MT</button>
-                        <button id="filter-ft" class="btn btn-secondary filter" type="button">FT</button>
+                        <button id="filter-sg" class="btn btn-secondary filter" type="button"><span class="label">SG</span></button>
+                        <button id="filter-smg" class="btn btn-secondary filter" type="button"><span class="label">SMG</span></button>
+                        <button id="filter-ar" class="btn btn-secondary filter" type="button"><span class="label">AR</span></button>
+                        <button id="filter-gl" class="btn btn-secondary filter" type="button"><span class="label">GL</span></button>
+                        <button id="filter-hg" class="btn btn-secondary filter" type="button"><span class="label">HG</span></button>
+                        <button id="filter-rl" class="btn btn-secondary filter" type="button"><span class="label">RL</span></button>
+                        <button id="filter-sr" class="btn btn-secondary filter" type="button"><span class="label">SR</span></button>
+                        <button id="filter-rg" class="btn btn-secondary filter" type="button"><span class="label">RG</span></button>
+                        <button id="filter-mg" class="btn btn-secondary filter" type="button"><span class="label">MG</span></button>
+                        <button id="filter-mt" class="btn btn-secondary filter" type="button"><span class="label">MT</span></button>
+                        <button id="filter-ft" class="btn btn-secondary filter" type="button"><span class="label">FT</span></button>
                     </div>
                 </div>
             </div>

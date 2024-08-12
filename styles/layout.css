@@ -219,6 +219,12 @@ aside {
     border-radius: 0 0 0 5px;
 }
 
+.font-nexon {
+    font-family: NEXON Football Gothic;
+    font-style: italic;
+    font-weight: 700;
+}
+
 /* footer {
     background: blueviolet;
     padding: 1em 0 1em 0;

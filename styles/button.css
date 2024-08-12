@@ -159,11 +159,13 @@
 }
 
 .btn {
+    height: 32px;
+    max-width: 100%;
     color: white;
     border: 0;
     outline: none;
     border-radius: 15px;
-    padding: 5px 10px;
+    padding: 0 2px;
     font-size: 15px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -176,6 +178,10 @@
 .btn-primary {
     color: black;
     background-color: rgba(255, 255, 255, 0.825);
+}
+
+.label {
+    padding: 0 8px;
 }
 
 #filter-tanker {
