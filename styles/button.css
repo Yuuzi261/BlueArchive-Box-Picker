@@ -197,7 +197,6 @@
 
 .icon-label span {
     display: inline-block;
-    text-align: center;
     line-height: 1.85;
     height: 26px;
     font-weight: 600;
@@ -206,8 +205,8 @@
 .nexon-font-label {
     display: inline-block;
     width: 100%;
-    text-align: center;
-    line-height: 2.3;
+    height: 26px;
+    line-height: 1.9;
     padding: 0 8px;
     font-family: NEXON Football Gothic;
     font-style: italic;
