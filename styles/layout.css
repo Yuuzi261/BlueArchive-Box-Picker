@@ -40,7 +40,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    padding: 0 0 0 10px
+    padding: 0 10px 0 10px
 }
 
 .header-title {
@@ -213,7 +213,7 @@ aside {
     display: none;
     position: absolute;
     background-color: rgba(21, 22, 23, 0.8);
-    right: 0;
+    right: -10px;
     z-index: 1000;
     padding: 10px 10px 0 10px;
     border-radius: 0 0 0 5px;
