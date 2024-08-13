@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var mainContent = document.querySelector('main');
     var rateContainer = document.querySelector(".rate-container");
     var toggleButton = document.getElementById('toggle-button');
-    var filterIcon = toggleButton.querySelector('span');
+    var filterIcon = toggleButton.querySelector('img');
 
     function updateSidebarVisibility() {
         if (window.innerWidth >= 1025) {
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     toggleButton.addEventListener('click', function() {
         if (window.innerWidth <= 1024) {
             if (leftSidebar.style.display === 'none') {
-                filterIcon.innerText = 'close';
+                filterIcon.src = '/images/icon/close_24dp_E8EAED_FILL1_wght400_GRAD0_opsz24.svg';
                 mainContent.style.display = 'none';
                 rateContainer.style.display = 'none';
                 leftSidebar.style.display = 'block';
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     leftSidebar.style.maxHeight = '100vh';
                 }, 10);
             } else {
-                filterIcon.innerText = 'filter_alt';
+                filterIcon.src = '/images/icon/filter_alt_24dp_E8EAED_FILL1_wght400_GRAD0_opsz24.svg';
                 leftSidebar.style.maxHeight = '0px';
                 setTimeout(function() {
                     leftSidebar.style.display = 'none';
