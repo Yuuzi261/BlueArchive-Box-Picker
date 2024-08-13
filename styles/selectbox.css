@@ -36,8 +36,10 @@
 }
 
 .select-clicked {
-    border: 1px #26519a solid;
-    box-shadow: 0 0 0.8em #26309a;
+    /* border: 1px #26519a solid;
+    box-shadow: 0 0 0.8em #26309a; */
+    border: 1px #128afa solid;
+    box-shadow: 0 0 0.8em #128afa;
 }
 
 .select:hover {
