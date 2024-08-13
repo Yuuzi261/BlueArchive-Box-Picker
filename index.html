@@ -58,12 +58,32 @@
                 <div id="settings-dropdown-menu">
                     <div class="selection-row">
                         <span>サーバー</span>
-                        <div id="server-select" class="custom-select">
-                            <select>
-                                <option value="0">日本</option>
-                                <option value="1">グローバル</option>
-                                <option value="2">中国</option>
-                            </select>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">日本</span>
+                                <div class="caret"></div>
+                            </div>
+                            <ul id="server-select" class="menu">
+                                <li class="active" value="0">日本</li>
+                                <li value="1">グローバル</li>
+                                <li value="2">中国</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="selection-row">
+                        <span>言語</span>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">日本語</span>
+                                <div class="caret"></div>
+                            </div>
+                            <ul id="lang-select" class="menu">
+                                <li class="active" value="0">日本語</li>
+                                <li value="1">English</li>
+                                <li value="2">한국어</li>
+                                <li value="3">繁體中文</li>
+                                <li value="3">简体中文</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

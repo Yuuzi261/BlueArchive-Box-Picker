@@ -108,13 +108,63 @@ function initializeApp(roles, state_maps) {
         }
     });
 
-    document.getElementById('server-select').querySelector('select').addEventListener('change', function(event) {
-        const selectedValue = event.target.value;
-        selected_server.fill(false);
-        selected_server[selectedValue] = true;
-        updateButtonVisibility(roles, buttonContainer);
-        calculatePossessionRate();
-    });    
+    const dropdowns = document.getElementById('settings-dropdown-menu').querySelectorAll('.dropdown');
+
+    dropdowns.forEach(dropdown => {
+        const select = dropdown.querySelector('.select');
+        const caret = dropdown.querySelector('.caret');
+        const menu = dropdown.querySelector('.menu');
+        const options = dropdown.querySelectorAll('.menu li');
+        const selected = dropdown.querySelector('.selected')
+
+        select.addEventListener('click', () => {
+            select.classList.toggle('select-clicked');
+            caret.classList.toggle('caret-rotate');
+            menu.classList.toggle('menu-open');
+        });
+
+        options.forEach(option => {
+            option.addEventListener('click', () => {
+                selected.innerText = option.innerText;
+                selected.classList.add('text-fade-in');
+                
+                if (menu.id == 'server-select') {
+                    selected_server.fill(false);
+                    selected_server[option.value] = true;
+                    updateButtonVisibility(roles, buttonContainer);
+                    calculatePossessionRate();
+                }
+
+                setTimeout(() => {
+                    selected.classList.remove('text-fade-in');
+                }, 300);
+
+                select.classList.remove('select-clicked');
+                caret.classList.remove('caret-rotate');
+                menu.classList.remove('menu-open');
+
+                options.forEach(option => {
+                    option.classList.remove('active');
+                });
+
+                option.classList.add('active');
+            });
+        });
+        window.addEventListener('click', e => {
+            const size = dropdown.getBoundingClientRect();
+
+            if(
+                e.clientX < size.left ||
+                e.clientX > size.right ||
+                e.clientY < size.top ||
+                e.clientY > size.bottom
+            ) {
+                select.classList.remove('select-clicked');
+                caret.classList.remove('caret-rotate');
+                menu.classList.remove('menu-open');
+            }
+        });
+    });   
 
     Object.keys(filtersMap).forEach(id => {
         document.getElementById(id).addEventListener('click', function() {
