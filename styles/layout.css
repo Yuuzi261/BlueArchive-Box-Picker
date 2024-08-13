@@ -212,10 +212,10 @@ aside {
 #settings-dropdown-menu {
     display: none;
     position: absolute;
-    background-color: rgba(33, 37, 41, .578);
+    background-color: rgba(21, 22, 23, 0.8);
     right: 0;
     z-index: 1000;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
     border-radius: 0 0 0 5px;
 }
 
