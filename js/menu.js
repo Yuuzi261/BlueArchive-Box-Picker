@@ -22,3 +22,10 @@ document.addEventListener('click', function(event) {
         menu.style.display = 'none';
     }
 });
+
+document.addEventListener('keydown', function(event) {
+    const menu = document.getElementById('settings-dropdown-menu');
+    if (event.key === 'Escape') {
+        menu.style.display = 'none';
+    }
+});
