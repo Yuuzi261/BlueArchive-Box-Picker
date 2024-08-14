@@ -133,7 +133,12 @@
     padding: 0;
 }
 
+.filter-image {
+    pointer-events: none;
+}
+
 .material-symbols-outlined {
+    pointer-events: none;
     color: white;
     font-variation-settings:
     'FILL' 0,
